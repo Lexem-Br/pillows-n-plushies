@@ -38,7 +38,8 @@
     "SwapFrom": "Root_Weapon_Crossbow_Swap_From",
     "Primary": "Root_Weapon_Crossbow_Primary_Signature",
     "Secondary": "Root_Weapon_Crossbow_Secondary_Guard",
-    "Ability1": "Root_Weapon_Crossbow_Signature_BigArrow"
+    "Ability1": "Root_Weapon_Crossbow_Signature_BigArrow",
+    "Ability3": "Root_Common_StatAmmoReload_Entry"
   },
   "InteractionVars": {
     "Arrow_Inventory_Condition": {
@@ -47,7 +48,7 @@
           "Type": "ModifyInventory",
           "RequiredGameMode": "Adventure",
           "ItemToRemove": {
-            "Id": "Gaia_Body_Pillow",
+            "Id": "Weapon_Arrow_Gaia_Body_Pillow",
             "Quantity": 1
           }
         }
@@ -170,7 +171,7 @@
           "$Comment": "The item to consume for every iteration of reloading",
           "Parent": "Common_StatAmmoReload_ItemConsume",
           "ItemToRemove": {
-            "Id": "Gaia_Body_Pillow",
+            "Id": "Weapon_Arrow_Gaia_Body_Pillow",
             "Quantity": 1
           }
         }
