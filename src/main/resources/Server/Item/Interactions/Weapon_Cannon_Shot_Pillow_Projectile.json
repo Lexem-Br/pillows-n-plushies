@@ -5,7 +5,7 @@
     "ItemAnimationId": "ShootCharged",
     "ClearAnimationOnFinish": true
   },
-  "Config": "Projectile_Config_Canon_Pillow",
+  "Config": "Projectile_Config_Cannon_Pillow",
   "Next": {
     "Type": "ChangeStat",
     "Behaviour": "Set",
