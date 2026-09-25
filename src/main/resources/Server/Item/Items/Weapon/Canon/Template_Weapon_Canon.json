@@ -35,14 +35,14 @@
     ]
   },
   "Interactions": {
-    "SwapFrom": "Root_Weapon_Crossbow_Swap_From",
+    "SwapFrom": "Root_Weapon_Canon_Swap_From",
     "Primary": "Root_Weapon_Crossbow_Primary_Signature",
     "Secondary": "Root_Weapon_Crossbow_Secondary_Guard",
     "Ability1": "Root_Weapon_Crossbow_Signature_BigArrow",
     "Ability3": "Root_Common_StatAmmoReload_Entry"
   },
   "InteractionVars": {
-    "Arrow_Inventory_Condition": {
+    "Weapon_Crossbow_Arrow_Inventory_Condition": {
       "Interactions": [
         {
           "Type": "ModifyInventory",
@@ -219,8 +219,15 @@
     "Signature_BigArrow_Launch": {
       "Interactions": [
         {
-          "$Comment": "Signature BigArrow - Fast, flat trajectory with big impact",
-          "Parent": "Weapon_Crossbow_Signature_BigArrow_Shot"
+          "Parent": "Weapon_Pillow_Canon_Shot_Standard_Projectile",
+          "Config": "Projectile_Config_Arrow_Crossbow_Signature",
+          "Next": {
+            "Type": "ChangeStat",
+            "StatModifiers": {
+              "SignatureCharges": -100
+            },
+            "ValueType": "Percent"
+          }
         }
       ]
     },
