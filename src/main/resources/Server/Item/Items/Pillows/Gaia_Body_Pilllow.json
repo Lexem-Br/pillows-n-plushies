@@ -4,58 +4,10 @@
     "Name": "pillow.items.Gaia_Body_Pillow.name",
     "Description": "pillow.items.Gaia_Body_Pillow.description"
   },
-  "Categories": [
-    "Items.Weapons"
-  ],
-  "Quality": "Common",
-  "ItemLevel": 9,
-  "PlayerAnimationsId": "Dagger",
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Cloth_Block_Wool_White",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Cloth_Block_Wool_Green",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Bolt_Wool",
-        "Quantity": 8
-      },
-      {
-        "ItemId": "Ingredient_Fibre",
-        "Quantity": 16
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Id": "Pillow_Bench",
-        "Categories": [
-          "Pillow_Daki"
-        ],
-        "RequiredTierLevel": 3
-      }
-    ],
-    "TimeSeconds": 16
-  },
-  "IconProperties": {
-    "Scale": 1.4,
-    "Rotation": [
-      178,
-      72,
-      81
-    ],
-    "Translation": [
-      -10,
-      -15
-    ]
-  },
   "Icon": "Icons/ItemsGenerated/Gaia_Body_Pillow.png",
   "Model": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
   "Texture": "Items/Blocks/Pillows/Gaia_Body_Pillow.png",
+  "Quality": "Common",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -97,12 +49,47 @@
     "PhysicalMaterialId": "Cloth",
     "BlockParticleSetId": "Dust"
   },
-  "Tags": {
-    "Type": [
-      "Weapon"
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Green",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 16
+      }
     ],
-    "Family": [
-      "Arrow"
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Pillow_Bench",
+        "Categories": [
+          "Pillow_Daki"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "TimeSeconds": 16
+  },
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      178,
+      72,
+      81
+    ],
+    "Translation": [
+      -10,
+      -15
     ]
   }
 }
