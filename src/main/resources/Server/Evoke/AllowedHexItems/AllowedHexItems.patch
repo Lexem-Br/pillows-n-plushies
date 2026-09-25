@@ -73,6 +73,10 @@
       "EntityId": "Hex_Oruuke_Plush"
     },
     {
+      "BlockId": "MelodicAlbuild_Plush",
+      "EntityId": "Hex_MelodicAlbuild_Plush"
+    },
+    {
       "BlockId": "Slushy_Plush",
       "EntityId": "Hex_Slushy_Plush"
     }

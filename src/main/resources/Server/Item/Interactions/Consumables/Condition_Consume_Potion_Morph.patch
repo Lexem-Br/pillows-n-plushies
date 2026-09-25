@@ -12,7 +12,8 @@
       "Potion_Morph_Hex_Oatman",
       "Potion_Morph_Hex_Oruuke",
       "Potion_Morph_Hex_Preston",
-      "Potion_Morph_Hex_Riprod"
+      "Potion_Morph_Hex_Riprod",
+      "Potion_Morph_Hex_MelodicAlbuild"
     ],
     "Match": "None",
     "Next": "Consume_Charge_Potion_Fast"
