@@ -7,37 +7,55 @@
     "Costs": {
       "Ammo": 6
     },
-    "Next": "Weapon_Cannon_Shot_Standard_Projectile_Slushy",
+    "Next": {
+      "Parent": "Weapon_Cannon_Shot_Standard_Projectile",
+      "Config": "Projectile_Config_Cannon_Slushy"
+    },
     "Failed": {
       "Type": "StatsCondition",
       "Costs": {
         "Ammo": 5
       },
-      "Next": "Weapon_Cannon_Shot_Standard_Projectile_Rimuru",
+      "Next": {
+        "Parent": "Weapon_Cannon_Shot_Standard_Projectile",
+        "Config": "Projectile_Config_Cannon_Rimuru"
+      },
       "Failed": {
         "Type": "StatsCondition",
         "Costs": {
           "Ammo": 4
         },
-        "Next": "Weapon_Cannon_Shot_Standard_Projectile_Gaia",
+        "Next": {
+          "Parent": "Weapon_Cannon_Shot_Standard_Projectile",
+          "Config": "Projectile_Config_Cannon_Gaia"
+        },
         "Failed": {
           "Type": "StatsCondition",
           "Costs": {
             "Ammo": 3
           },
-          "Next": "Weapon_Cannon_Shot_Standard_Projectile_Ferris",
+          "Next": {
+            "Parent": "Weapon_Cannon_Shot_Standard_Projectile",
+            "Config": "Projectile_Config_Cannon_Ferris"
+          },
           "Failed": {
             "Type": "StatsCondition",
             "Costs": {
               "Ammo": 2
             },
-            "Next": "Weapon_Cannon_Shot_Standard_Projectile_Blank",
+            "Next": {
+              "Parent": "Weapon_Cannon_Shot_Standard_Projectile",
+              "Config": "Projectile_Config_Cannon_Blank"
+            },
             "Failed": {
               "Type": "StatsCondition",
               "Costs": {
                 "Ammo": 1
               },
-              "Next": "Weapon_Cannon_Shot_Standard_Projectile_Astolfo",
+              "Next": {
+                "Parent": "Weapon_Cannon_Shot_Standard_Projectile",
+                "Config": "Projectile_Config_Cannon_Astolfo"
+              },
               "Failed": "Common_Cannon_StatAmmoReload_Entry"
             }
           }

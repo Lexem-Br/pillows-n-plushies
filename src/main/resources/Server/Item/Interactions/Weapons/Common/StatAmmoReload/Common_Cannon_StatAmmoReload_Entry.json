@@ -20,7 +20,6 @@
       },
       "Next": {
         "Type": "ApplyEffect",
-        "HorizontalSpeedMultiplier": 0.75,
         "EffectId": {
           "StatModifiers": {
             "Ammo": 1
@@ -37,7 +36,6 @@
         },
         "Next": {
           "Type": "ApplyEffect",
-          "HorizontalSpeedMultiplier": 0.75,
           "EffectId": {
             "StatModifiers": {
               "Ammo": 2
@@ -54,7 +52,6 @@
           },
           "Next": {
             "Type": "ApplyEffect",
-            "HorizontalSpeedMultiplier": 0.75,
             "EffectId": {
               "StatModifiers": {
                 "Ammo": 3
@@ -71,7 +68,6 @@
             },
             "Next": {
               "Type": "ApplyEffect",
-              "HorizontalSpeedMultiplier": 0.75,
               "EffectId": {
                 "StatModifiers": {
                   "Ammo": 4
@@ -88,7 +84,6 @@
               },
               "Next": {
                 "Type": "ApplyEffect",
-                "HorizontalSpeedMultiplier": 0.75,
                 "EffectId": {
                   "StatModifiers": {
                     "Ammo": 5
@@ -105,7 +100,6 @@
                 },
                 "Next": {
                   "Type": "ApplyEffect",
-                  "HorizontalSpeedMultiplier": 0.75,
                   "EffectId": {
                     "StatModifiers": {
                       "Ammo": 6
