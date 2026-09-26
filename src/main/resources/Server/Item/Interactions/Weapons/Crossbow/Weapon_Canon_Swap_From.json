@@ -12,8 +12,8 @@
     "Next": {
       "Type": "ModifyInventory",
       "ItemToAdd": {
-        "Id": "Gaia_Body_Pillow",
-        "Quantity": 6
+        "Id": "Slushy_Body_Pillow",
+        "Quantity": 1
       },
       "Next": {
         "Type": "ChangeActiveSlot"
@@ -27,8 +27,8 @@
       "Next": {
         "Type": "ModifyInventory",
         "ItemToAdd": {
-          "Id": "Gaia_Body_Pillow",
-          "Quantity": 5
+          "Id": "Rimuru_Body_Pillow",
+          "Quantity": 1
         },
         "Next": {
           "Type": "ChangeActiveSlot"
@@ -43,7 +43,7 @@
           "Type": "ModifyInventory",
           "ItemToAdd": {
             "Id": "Gaia_Body_Pillow",
-            "Quantity": 4
+            "Quantity": 1
           },
           "Next": {
             "Type": "ChangeActiveSlot"
@@ -57,8 +57,8 @@
           "Next": {
             "Type": "ModifyInventory",
             "ItemToAdd": {
-              "Id": "Gaia_Body_Pillow",
-              "Quantity": 3
+              "Id": "Ferris_Body_Pillow",
+              "Quantity": 1
             },
             "Next": {
               "Type": "ChangeActiveSlot"
@@ -72,8 +72,8 @@
             "Next": {
               "Type": "ModifyInventory",
               "ItemToAdd": {
-                "Id": "Gaia_Body_Pillow",
-                "Quantity": 2
+                "Id": "Blank_Body_Pillow",
+                "Quantity": 1
               },
               "Next": {
                 "Type": "ChangeActiveSlot"
@@ -87,7 +87,7 @@
               "Next": {
                 "Type": "ModifyInventory",
                 "ItemToAdd": {
-                  "Id": "Gaia_Body_Pillow",
+                  "Id": "Astolfo_Body_Pillow",
                   "Quantity": 1
                 },
                 "Next": {

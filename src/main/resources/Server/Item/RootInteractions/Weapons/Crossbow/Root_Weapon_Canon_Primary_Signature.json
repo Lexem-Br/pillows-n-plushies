@@ -1,0 +1,14 @@
+{
+  "RequireNewClick": false,
+  "Cooldown": {
+    "Cooldown": 0.3
+  },
+  "Interactions": [
+    "Weapon_Canon_Primary_Reload"
+  ],
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  }
+}

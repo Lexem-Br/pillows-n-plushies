@@ -5,12 +5,18 @@
     "ItemAnimationId": "ShootCharged",
     "ClearAnimationOnFinish": true
   },
-  "Config": "Projectile_Config_Canon_Pillow",
+  "Config": "Projectile_Config_Canon_Rimuru",
   "Next": {
     "Type": "ChangeStat",
-    "Behaviour": "Set",
     "StatModifiers": {
-      "StaminaRegenDelay": 0
+      "Ammo": -100
+    },
+    "Next": {
+      "Type": "ChangeStat",
+      "Behaviour": "Set",
+      "StatModifiers": {
+        "StaminaRegenDelay": 0
+      }
     }
   }
 }

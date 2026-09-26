@@ -5,11 +5,11 @@
     "ItemAnimationId": "ShootCharged",
     "ClearAnimationOnFinish": true
   },
-  "Config": "Projectile_Config_Arrow_Crossbow",
+  "Config": "Projectile_Config_Canon_Blank",
   "Next": {
     "Type": "ChangeStat",
     "StatModifiers": {
-      "Ammo": -3
+      "Ammo": -100
     },
     "Next": {
       "Type": "ChangeStat",

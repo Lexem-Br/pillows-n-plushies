@@ -1,0 +1,510 @@
+{
+  "TranslationProperties": {
+    "Name": "pillow.items.Ferris_Body_Pillow.name",
+    "Description": "pillow.items.Ferris_Body_Pillow.description"
+  },
+  "Set": "Furniture_Misc",
+  "Scale": 2.0,
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Reticle": "MaceMelee",
+  "PlayerAnimationsId": "Mace",
+  "Quality": "Common",
+  "ItemLevel": 9,
+  "Icon": "Icons/ItemsGenerated/Ferris_Body_Pillow.png",
+  "Model": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
+  "Texture": "Items/Blocks/Pillows/Ferris_Body_Pillow.png",
+  "Interactions": {
+    "Primary": "Root_Weapon_Mace_Primary",
+    "Secondary": "Root_Weapon_Pillow_Secondary",
+    "Ability1": "Root_Weapon_Mace_Signature_Groundslam"
+  },
+  "InteractionVars": {
+    "Swing_Left_Start": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Left",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Swing",
+            "LocalSoundEventId": "SFX_Mace_T1_Swing_RL_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Right_Start": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Right",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Swing",
+            "LocalSoundEventId": "SFX_Mace_T1_Swing_LR_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Start": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Up_Left",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Swing",
+            "LocalSoundEventId": "SFX_Mace_T1_Swing_Up_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Left_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Impact",
+            "LocalSoundEventId": "SFX_Mace_T1_Impact",
+            "Knockback": {
+              "Force": 32
+            }
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 0
+            }
+          }
+        },
+        {
+          "Type": "ChangeStat",
+          "StatModifiers": {
+            "SignatureEnergy": 1
+          }
+        }
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Right_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Impact",
+            "LocalSoundEventId": "SFX_Mace_T1_Impact",
+            "Knockback": {
+              "Force": 32
+            }
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 0
+            }
+          }
+        },
+        {
+          "Type": "ChangeStat",
+          "StatModifiers": {
+            "SignatureEnergy": 1
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Up_Left_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Impact",
+            "LocalSoundEventId": "SFX_Mace_T1_Impact",
+            "Knockback": {
+              "Force": 32
+            }
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 0
+            }
+          }
+        },
+        {
+          "Type": "ChangeStat",
+          "StatModifiers": {
+            "SignatureEnergy": 1
+          }
+        }
+      ]
+    },
+    "Swing_Left_Charged_Selector": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Left_Charged_Selector",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Swing_Charged",
+            "LocalSoundEventId": "SFX_Mace_T1_Swing_Charged_RL_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Left_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Left_Charged_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Impact",
+            "LocalSoundEventId": "SFX_Mace_T1_Impact",
+            "Knockback": {
+              "Force": 64
+            }
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 0
+            }
+          }
+        },
+        {
+          "Type": "ChangeStat",
+          "StatModifiers": {
+            "SignatureEnergy": 1
+          }
+        }
+      ]
+    },
+    "Swing_Right_Charged_Selector": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Right_Charged_Selector",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Swing_Charged",
+            "LocalSoundEventId": "SFX_Mace_T1_Swing_Charged_LR_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Right_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Right_Charged_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Impact",
+            "LocalSoundEventId": "SFX_Mace_T1_Impact",
+            "Knockback": {
+              "Force": 64
+            }
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 0
+            }
+          }
+        },
+        {
+          "Type": "ChangeStat",
+          "StatModifiers": {
+            "SignatureEnergy": 1
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Charged_Selector": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Up_Left_Charged_Selector",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Swing_Charged",
+            "LocalSoundEventId": "SFX_Mace_T1_Swing_Charged_Up_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Up_Left_Charged_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Impact",
+            "LocalSoundEventId": "SFX_Mace_T1_Impact",
+            "Knockback": {
+              "Force": 64
+            }
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 0
+            }
+          }
+        },
+        {
+          "Type": "ChangeStat",
+          "StatModifiers": {
+            "SignatureEnergy": 1
+          }
+        }
+      ]
+    },
+    "Groundslam_Swing_Selector": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Signature_Groundslam_Swing_Selector",
+          "Selector": {
+            "Id": "AOECircle",
+            "Offset": {
+              "Z": -1.5
+            },
+            "Range": 2
+          }
+        }
+      ]
+    },
+    "Groundslam_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Signature_Groundslam_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Impact",
+            "LocalSoundEventId": "SFX_Mace_T1_Impact",
+            "Knockback": {
+              "Force": 64
+            }
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 0
+            }
+          }
+        }
+      ]
+    },
+    "Knife_Block_Damage": "Knife_Block_Damage",
+    "Knife_Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 1
+            }
+          },
+          "DamageEffects": {
+            "Knockback": {
+              "Force": 0,
+              "VelocityType": "Add"
+            },
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Right_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 1
+            }
+          },
+          "DamageEffects": {
+            "Knockback": {
+              "Force": 0,
+              "VelocityType": "Add"
+            },
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Stab_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Stab_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 1
+            }
+          },
+          "DamageEffects": {
+            "Knockback": {
+              "Force": 0,
+              "VelocityType": "Add"
+            },
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Lunge_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Lunge_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Lunge_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Lunge_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 1
+            }
+          },
+          "DamageEffects": {
+            "Knockback": {
+              "Force": 0,
+              "VelocityType": "Add"
+            },
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Throw_Charged_Projectile": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Throw_Charged_Projectile",
+          "ProjectileId": "Arrow_HalfCharge"
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Blocks/Pillows/Ferris_Body_Pillow.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "Block_Body_Pillow",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "Default",
+      "AllowRotationKey": true
+    },
+    "Seats": [
+      {
+        "Offset": {
+          "X": -0.1,
+          "Y": -0.18,
+          "Z": 0.1
+        },
+        "Yaw": -45
+      }
+    ],
+    "Interactions": {
+      "Use": "Plush_Seat"
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "ParticleColor": "#f5f5f5",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
+  "MaxStack": 100,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Mace",
+      "Weapon"
+    ],
+    "Family": [
+      "Weapon",
+      "Deco",
+      "Arrow"
+    ]
+  },
+  "Weapon": {
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ],
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 8,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Green",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 16
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Pillow_Bench",
+        "Categories": [
+          "Pillow_Daki"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "TimeSeconds": 16
+  },
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      178,
+      72,
+      81
+    ],
+    "Translation": [
+      -10,
+      -15
+    ]
+  }
+}
