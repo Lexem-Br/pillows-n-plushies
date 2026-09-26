@@ -2,13 +2,12 @@
   "RequireNewClick": true,
   "Interactions": [
     {
-      "Type": "Replace",
-      "Var": "Reload_Start",
-      "DefaultValue": {
-        "Interactions": [
-          "Common_Cannon_StatAmmoReload_Entry"
-        ]
-      }
+      "Type": "StatsCondition",
+      "LessThan": true,
+      "Costs": {
+        "Ammo": 1
+      },
+      "Next": "Common_Cannon_StatAmmoReload_Entry"
     }
   ]
 }

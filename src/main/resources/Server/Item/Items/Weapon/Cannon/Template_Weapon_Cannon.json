@@ -18,7 +18,7 @@
   },
   "Interactions": {
     "SwapFrom": "Root_Weapon_Cannon_Swap_From",
-    "Primary": "Root_Weapon_Cannon_Primary_Signature",
+    "Primary": "Root_Weapon_Cannon_Primary",
     "Secondary": "Root_Zoom_Cannon_ADS",
     "Ability1": "Root_Weapon_Crossbow_Signature_BigArrow",
     "Ability3": "Root_Common_Cannon_StatAmmoReload_Entry"
