@@ -1,11 +1,5 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.Template_Weapon_Crossbow.name"
-  },
   "PlayerAnimationsId": "Crossbow",
-  "Model": "Items/Weapons/Crossbow/Iron.blockymodel",
-  "Texture": "Items/Weapons/Crossbow/Iron_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Crossbow_Iron.png",
   "Reticle": "DefaultMelee",
   "Quality": "Template",
   "Categories": [
@@ -13,18 +7,6 @@
   ],
   "Utility": {
     "Compatible": true
-  },
-  "IconProperties": {
-    "Scale": 0.5,
-    "Translation": [
-      -4.11,
-      -15.51
-    ],
-    "Rotation": [
-      330,
-      90,
-      45
-    ]
   },
   "Tags": {
     "Type": [

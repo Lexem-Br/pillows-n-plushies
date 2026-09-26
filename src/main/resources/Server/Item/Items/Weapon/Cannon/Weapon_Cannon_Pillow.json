@@ -3,9 +3,8 @@
   "TranslationProperties": {
     "Name": "pillow.items.Weapon_Cannon_Pillow.name"
   },
-  "Model": "Items/Weapons/Crossbow/Iron.blockymodel",
-  "Texture": "Items/Weapons/Crossbow/Iron_Rusty_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Crossbow_Iron_Rusty.png",
+  "Model": "Items/Weapons/Cannon/Obelisk_Pillow.blockymodel",
+  "Texture": "Items/Weapons/Cannon/Obelisk_Pillow.png",
   "Quality": "Rare",
   "ItemLevel": 30,
   "InteractionVars": {
@@ -65,5 +64,18 @@
     }
   },
   "MaxDurability": 180,
-  "DurabilityLossOnHit": 0.28
+  "DurabilityLossOnHit": 0.28,
+  "Icon": "Icons/ItemsGenerated/Weapon_Cannon_Pillow.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      39,
+      313,
+      330
+    ],
+    "Translation": [
+      8,
+      -44
+    ]
+  }
 }
