@@ -1,0 +1,141 @@
+{
+  "Type": "DurabilityCondition",
+  "Threshold": 0,
+  "Operator": "GreaterThan",
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.8,
+    "Effects": {
+      "ItemAnimationId": "ReloadReady",
+      "WorldSoundEventId": "SFX_Door_Crude_Open",
+      "LocalSoundEventId": "SFX_Door_Crude_Open",
+      "ClearAnimationOnFinish": true
+    },
+    "Next": {
+      "Type": "ModifyInventory",
+      "RequiredGameMode": "Adventure",
+      "ItemToRemove": {
+        "Id": "Astolfo_Body_Pillow",
+        "Quantity": 1
+      },
+      "Next": {
+        "Type": "ApplyEffect",
+        "HorizontalSpeedMultiplier": 0.75,
+        "EffectId": {
+          "StatModifiers": {
+            "Ammo": 1
+          }
+        },
+        "Next": "Common_Canon_StatAmmoReload_Effects"
+      },
+      "Failed": {
+        "Type": "ModifyInventory",
+        "RequiredGameMode": "Adventure",
+        "ItemToRemove": {
+          "Id": "Blank_Body_Pillow",
+          "Quantity": 1
+        },
+        "Next": {
+          "Type": "ApplyEffect",
+          "HorizontalSpeedMultiplier": 0.75,
+          "EffectId": {
+            "StatModifiers": {
+              "Ammo": 2
+            }
+          },
+          "Next": "Common_Canon_StatAmmoReload_Effects"
+        },
+        "Failed": {
+          "Type": "ModifyInventory",
+          "RequiredGameMode": "Adventure",
+          "ItemToRemove": {
+            "Id": "Ferris_Body_Pillow",
+            "Quantity": 1
+          },
+          "Next": {
+            "Type": "ApplyEffect",
+            "HorizontalSpeedMultiplier": 0.75,
+            "EffectId": {
+              "StatModifiers": {
+                "Ammo": 3
+              }
+            },
+            "Next": "Common_Canon_StatAmmoReload_Effects"
+          },
+          "Failed": {
+            "Type": "ModifyInventory",
+            "RequiredGameMode": "Adventure",
+            "ItemToRemove": {
+              "Id": "Gaia_Body_Pillow",
+              "Quantity": 1
+            },
+            "Next": {
+              "Type": "ApplyEffect",
+              "HorizontalSpeedMultiplier": 0.75,
+              "EffectId": {
+                "StatModifiers": {
+                  "Ammo": 4
+                }
+              },
+              "Next": "Common_Canon_StatAmmoReload_Effects"
+            },
+            "Failed": {
+              "Type": "ModifyInventory",
+              "RequiredGameMode": "Adventure",
+              "ItemToRemove": {
+                "Id": "Rimuru_Body_Pillow",
+                "Quantity": 1
+              },
+              "Next": {
+                "Type": "ApplyEffect",
+                "HorizontalSpeedMultiplier": 0.75,
+                "EffectId": {
+                  "StatModifiers": {
+                    "Ammo": 5
+                  }
+                },
+                "Next": "Common_Canon_StatAmmoReload_Effects"
+              },
+              "Failed": {
+                "Type": "ModifyInventory",
+                "RequiredGameMode": "Adventure",
+                "ItemToRemove": {
+                  "Id": "Slushy_Body_Pillow",
+                  "Quantity": 1
+                },
+                "Next": {
+                  "Type": "ApplyEffect",
+                  "HorizontalSpeedMultiplier": 0.75,
+                  "EffectId": {
+                    "StatModifiers": {
+                      "Ammo": 6
+                    }
+                  },
+                  "Next": "Common_Canon_StatAmmoReload_Effects"
+                },
+                "Failed": {
+                  "Type": "Replace",
+                  "Var": "No_Ammo_Effects",
+                  "DefaultValue": {
+                    "Interactions": [
+                      "Common_Bow_No_Ammo"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Failed": {
+      "Type": "Replace",
+      "Var": "No_Ammo_Effects",
+      "DefaultValue": {
+        "Interactions": [
+          "Common_Bow_No_Ammo"
+        ]
+      }
+    }
+  }
+}
