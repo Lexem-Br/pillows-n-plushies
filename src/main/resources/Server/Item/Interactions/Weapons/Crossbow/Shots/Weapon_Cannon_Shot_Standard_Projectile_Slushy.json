@@ -5,7 +5,7 @@
     "ItemAnimationId": "ShootCharged",
     "ClearAnimationOnFinish": true
   },
-  "Config": "Projectile_Config_Canon_Ferris",
+  "Config": "Projectile_Config_Cannon_Slushy",
   "Next": {
     "Type": "ChangeStat",
     "StatModifiers": {

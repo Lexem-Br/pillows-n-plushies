@@ -5,7 +5,7 @@
     "ItemAnimationId": "ShootCharged",
     "ClearAnimationOnFinish": true
   },
-  "Config": "Projectile_Config_Canon_Astolfo",
+  "Config": "Projectile_Config_Cannon_Gaia",
   "Next": {
     "Type": "ChangeStat",
     "StatModifiers": {

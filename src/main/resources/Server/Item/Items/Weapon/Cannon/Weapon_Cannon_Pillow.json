@@ -1,7 +1,7 @@
 {
-  "Parent": "Template_Weapon_Canon",
+  "Parent": "Template_Weapon_Cannon",
   "TranslationProperties": {
-    "Name": "pillow.items.Weapon_Canon_Pillow.name"
+    "Name": "pillow.items.Weapon_Cannon_Pillow.name"
   },
   "Model": "Items/Weapons/Crossbow/Iron.blockymodel",
   "Texture": "Items/Weapons/Crossbow/Iron_Rusty_Texture.png",

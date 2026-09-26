@@ -5,7 +5,7 @@
     "ItemAnimationId": "ShootCharged",
     "ClearAnimationOnFinish": true
   },
-  "Config": "Projectile_Config_Canon_Gaia",
+  "Config": "Projectile_Config_Cannon_Ferris",
   "Next": {
     "Type": "ChangeStat",
     "StatModifiers": {

@@ -35,11 +35,11 @@
     ]
   },
   "Interactions": {
-    "SwapFrom": "Root_Weapon_Canon_Swap_From",
-    "Primary": "Root_Weapon_Canon_Primary_Signature",
+    "SwapFrom": "Root_Weapon_Cannon_Swap_From",
+    "Primary": "Root_Weapon_Cannon_Primary_Signature",
     "Secondary": "Root_Weapon_Crossbow_Secondary_Guard",
     "Ability1": "Root_Weapon_Crossbow_Signature_BigArrow",
-    "Ability3": "Root_Common_Canon_StatAmmoReload_Entry"
+    "Ability3": "Root_Common_Cannon_StatAmmoReload_Entry"
   },
   "InteractionVars": {
     "Standard_Projectile_Damage": {

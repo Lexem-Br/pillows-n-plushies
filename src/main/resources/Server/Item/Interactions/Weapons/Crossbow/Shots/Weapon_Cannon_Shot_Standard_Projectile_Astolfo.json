@@ -5,7 +5,7 @@
     "ItemAnimationId": "ShootCharged",
     "ClearAnimationOnFinish": true
   },
-  "Config": "Projectile_Config_Canon_Blank",
+  "Config": "Projectile_Config_Cannon_Astolfo",
   "Next": {
     "Type": "ChangeStat",
     "StatModifiers": {

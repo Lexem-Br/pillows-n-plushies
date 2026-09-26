@@ -6,7 +6,7 @@
       "Var": "Reload_Start",
       "DefaultValue": {
         "Interactions": [
-          "Common_Canon_StatAmmoReload_Entry"
+          "Common_Cannon_StatAmmoReload_Entry"
         ]
       }
     }

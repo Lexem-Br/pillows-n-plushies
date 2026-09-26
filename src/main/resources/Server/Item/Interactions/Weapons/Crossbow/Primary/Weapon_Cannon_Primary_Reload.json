@@ -7,38 +7,38 @@
     "Costs": {
       "Ammo": 6
     },
-    "Next": "Weapon_Canon_Shot_Standard_Projectile_Slushy",
+    "Next": "Weapon_Cannon_Shot_Standard_Projectile_Slushy",
     "Failed": {
       "Type": "StatsCondition",
       "Costs": {
         "Ammo": 5
       },
-      "Next": "Weapon_Canon_Shot_Standard_Projectile_Rimuru",
+      "Next": "Weapon_Cannon_Shot_Standard_Projectile_Rimuru",
       "Failed": {
         "Type": "StatsCondition",
         "Costs": {
           "Ammo": 4
         },
-        "Next": "Weapon_Canon_Shot_Standard_Projectile_Gaia",
+        "Next": "Weapon_Cannon_Shot_Standard_Projectile_Gaia",
         "Failed": {
           "Type": "StatsCondition",
           "Costs": {
             "Ammo": 3
           },
-          "Next": "Weapon_Canon_Shot_Standard_Projectile_Ferris",
+          "Next": "Weapon_Cannon_Shot_Standard_Projectile_Ferris",
           "Failed": {
             "Type": "StatsCondition",
             "Costs": {
               "Ammo": 2
             },
-            "Next": "Weapon_Canon_Shot_Standard_Projectile_Blank",
+            "Next": "Weapon_Cannon_Shot_Standard_Projectile_Blank",
             "Failed": {
               "Type": "StatsCondition",
               "Costs": {
                 "Ammo": 1
               },
-              "Next": "Weapon_Canon_Shot_Standard_Projectile_Astolfo",
-              "Failed": "Common_Canon_StatAmmoReload_Entry"
+              "Next": "Weapon_Cannon_Shot_Standard_Projectile_Astolfo",
+              "Failed": "Common_Cannon_StatAmmoReload_Entry"
             }
           }
         }

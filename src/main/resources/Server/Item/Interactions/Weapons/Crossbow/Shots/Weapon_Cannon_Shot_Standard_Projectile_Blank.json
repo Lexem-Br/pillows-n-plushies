@@ -5,7 +5,7 @@
     "ItemAnimationId": "ShootCharged",
     "ClearAnimationOnFinish": true
   },
-  "Config": "Projectile_Config_Canon_Rimuru",
+  "Config": "Projectile_Config_Cannon_Blank",
   "Next": {
     "Type": "ChangeStat",
     "StatModifiers": {
