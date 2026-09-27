@@ -1,0 +1,19 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.1,
+  "Effects": {
+    "ClearAnimationOnFinish": true,
+    "Particles": [
+      {
+        "SystemId": "Effect_Death",
+        "Scale": 0.4,
+        "PositionOffset": {
+          "X": -0.2,
+          "Y": 0.4,
+          "Z": 0.6
+        },
+        "TargetEntityPart": "PrimaryItem"
+      }
+    ]
+  }
+}

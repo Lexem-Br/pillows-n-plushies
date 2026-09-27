@@ -13,8 +13,6 @@
         {
           "Parent": "Weapon_Crossbow_Damage_Standard_Projectile",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Mace_T1_Impact",
-            "LocalSoundEventId": "SFX_Mace_T1_Impact",
             "Knockback": {
               "Force": 32
             }
@@ -35,29 +33,6 @@
             "BaseDamage": {
               "Projectile": 0
             }
-          }
-        }
-      ]
-    },
-    "Signature_BigArrow_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Crossbow_Damage_Signature_Projectile",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Projectile": 0
-            }
-          }
-        }
-      ]
-    },
-    "Guard_Wield": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Crossbow_Secondary_Guard_Wield",
-          "StaminaCost": {
-            "Value": 15.56,
-            "CostType": "Damage"
           }
         }
       ]

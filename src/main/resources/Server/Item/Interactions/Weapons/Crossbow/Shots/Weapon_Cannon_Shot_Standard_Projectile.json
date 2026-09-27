@@ -11,12 +11,6 @@
     "StatModifiers": {
       "Ammo": -100
     },
-    "Next": {
-      "Type": "ChangeStat",
-      "Behaviour": "Set",
-      "StatModifiers": {
-        "StaminaRegenDelay": 0
-      }
-    }
+    "Next": "Weapon_Cannon_Explosion"
   }
 }
