@@ -1,18 +1,6 @@
 {
-  "UseModelScale": true,
+  "Parent": "Projectile_Config_Cannon",
   "Model": "Pillow_Slushy",
-  "LaunchForce": 40,
-  "Physics": {
-    "Type": "Standard",
-    "Gravity": 10,
-    "TerminalVelocityAir": 50,
-    "TerminalVelocityWater": 15,
-    "RotationMode": "VelocityDamped",
-    "Bounciness": 0.5,
-    "SticksVertically": false
-  },
-  "LaunchLocalSoundEventId": "SFX_Bow_T2_Shoot_Local",
-  "LaunchWorldSoundEventId": "SFX_Bow_T2_Shoot",
   "Interactions": {
     "ProjectileHit": {
       "Interactions": [
