@@ -1,0 +1,19 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "Plush_Reload"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 2,
+  "Next": {
+    "Type": "LaunchProjectile",
+    "RunTime": 0.333,
+    "Effects": {
+      "WorldSoundEventId": "SFX_Plushie_Build"
+    },
+    "ProjectileId": "Cannon_Bullet",
+    "Tags": {
+      "AimingReference": []
+    }
+  }
+}

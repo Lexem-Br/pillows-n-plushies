@@ -1,0 +1,41 @@
+{
+  "Appearance": "Pillow_Blank",
+  "Radius": 0.1,
+  "Height": 0,
+  "DepthShot": 1,
+  "PitchAdjustShot": false,
+  "SticksVertically": true,
+  "MuzzleVelocity": 15,
+  "TerminalVelocity": 40,
+  "Gravity": 10,
+  "Bounciness": 1,
+  "ImpactSlowdown": 0,
+  "ExplosionConfig": {
+    "DamageEntities": true,
+    "DamageBlocks": false,
+    "BlockDamageRadius": 0,
+    "EntityDamageRadius": 2,
+    "EntityDamageFalloff": 1.0,
+    "Knockback": {
+      "Type": "Point",
+      "VelocityConfig": {
+        "AirResistance": 0.97,
+        "AirResistanceMax": 0.96,
+        "GroundResistance": 0.94,
+        "GroundResistanceMax": 0.3,
+        "Threshold": 3.0
+      },
+      "Force": 32,
+      "VelocityType": "Set"
+    }
+  },
+  "TimeToLive": 10,
+  "Damage": 0,
+  "DeathEffectsOnHit": true,
+  "DeadTime": 0.1,
+  "DeadTimeMiss": 0,
+  "VerticalCenterShot": 0,
+  "HorizontalCenterShot": 0,
+  "HitSoundEventId": "SFX_Plushie_Build",
+  "MissSoundEventId": "SFX_Plushie_Build"
+}

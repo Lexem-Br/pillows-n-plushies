@@ -75,6 +75,15 @@
     ]
   },
   "AnimationSets": {
+    "Plush_Reload": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Cannon/Plush_Reload.blockyanim",
+          "Looping": false,
+          "Speed": 0.4
+        }
+      ]
+    },
     "Overdrive": {
       "Animations": [
         {
