@@ -43,8 +43,8 @@
           "Type": "Simple",
           "RunTime": 0.1,
           "Effects": {
-            "LocalSoundEventId": "SFX_Plushie_Build",
-            "WorldSoundEventId": "SFX_Plushie_Build"
+            "LocalSoundEventId": "SFX_Cloth_Build",
+            "WorldSoundEventId": "SFX_Cloth_Build"
           }
         }
       ]
@@ -104,7 +104,7 @@
   },
   "ClipsGeometry": false,
   "Consumable": false,
-  "ItemSoundSetId": "ISS_Weapons_Wood",
+  "ItemSoundSetId": "ISS_Armor_Cloth",
   "MaxDurability": 80,
   "DurabilityLossOnHit": 0.28
 }
