@@ -16,6 +16,7 @@
     "BlockDamageRadius": 0,
     "EntityDamageRadius": 2,
     "EntityDamageFalloff": 1.0,
+    "EntityDamage": 0,
     "Knockback": {
       "Type": "Point",
       "VelocityConfig": {
@@ -25,7 +26,7 @@
         "GroundResistanceMax": 0.3,
         "Threshold": 3.0
       },
-      "Force": 32,
+      "Force": 50,
       "VelocityType": "Set"
     }
   },

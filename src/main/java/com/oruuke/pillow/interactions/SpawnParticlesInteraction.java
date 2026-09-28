@@ -3,12 +3,6 @@ package com.oruuke.pillow.interactions;
 import com.hypixel.hytale.codec.Codec;
 import com.hypixel.hytale.codec.KeyedCodec;
 import com.hypixel.hytale.codec.builder.BuilderCodec;
-import com.hypixel.hytale.codec.codecs.array.ArrayCodec;
-import com.hypixel.hytale.codec.validation.Validators;
-import com.hypixel.hytale.common.map.IWeightedElement;
-import com.hypixel.hytale.common.map.IWeightedMap;
-import com.hypixel.hytale.common.map.WeightedMap;
-import com.hypixel.hytale.common.util.ArrayUtil;
 import com.hypixel.hytale.component.CommandBuffer;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
@@ -32,49 +26,25 @@ import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.hypixel.hytale.server.npc.NPCPlugin;
 import com.hypixel.hytale.server.npc.entities.NPCEntity;
-import com.hypixel.hytale.server.npc.interactions.SpawnNPCInteraction;
-import com.hypixel.hytale.server.npc.validators.NPCRoleValidator;
 import it.unimi.dsi.fastutil.Pair;
 import org.joml.Vector3d;
 
 import javax.annotation.Nonnull;
 import java.util.List;
-import java.util.concurrent.ThreadLocalRandom;
 
-public class SummonInteraction extends SimpleInteraction {
+public class SpawnParticlesInteraction extends SimpleInteraction {
     private static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
+    private String entityId = "Skeleton";
 
-    public static final BuilderCodec<SummonInteraction> CODEC =
-            BuilderCodec.builder(SummonInteraction.class, SummonInteraction::new,
+    public static final BuilderCodec<SpawnParticlesInteraction> CODEC =
+            BuilderCodec.builder(SpawnParticlesInteraction.class, SpawnParticlesInteraction::new,
                             SimpleInteraction.CODEC)
-                    .append(new KeyedCodec<>("EntityId", Codec.STRING),
+                    .append(new KeyedCodec<>("ParticleId", Codec.STRING),
                             (config, value) -> config.entityId = value,
                             (config) -> config.entityId)
-                    .documentation("The ID of the entity asset to spawn.")
-                    .addValidator(NPCRoleValidator.INSTANCE)
+                    .documentation("The Id of the particle to spawn.")
                     .add()
-                    .<SummonInteraction.WeightedNPCSpawn[]>append(
-                            new KeyedCodec<>("WeightedEntityIds", new ArrayCodec<>(SummonInteraction.WeightedNPCSpawn.CODEC, SummonInteraction.WeightedNPCSpawn[]::new)),
-                            (summonInteraction, o) -> summonInteraction.weightedSpawns = o,
-                            summonInteraction -> summonInteraction.weightedSpawns
-                    )
-                    .documentation("A weighted list of entity IDs from which an entity will be selected for spawning. Supersedes any provided EntityId.")
-                    .add()
-                    .afterDecode(interaction -> {
-                        if (interaction.weightedSpawns != null && interaction.weightedSpawns.length > 0) {
-                            WeightedMap.Builder<String> mapBuilder = WeightedMap.builder(ArrayUtil.EMPTY_STRING_ARRAY);
-
-                            for (SummonInteraction.WeightedNPCSpawn entry : interaction.weightedSpawns) {
-                                mapBuilder.put(entry.id, entry.weight);
-                            }
-
-                            interaction.weightedSpawnMap = mapBuilder.build();
-                        }
-                    })
                     .build();
-    protected String entityId;
-    protected SummonInteraction.WeightedNPCSpawn[] weightedSpawns;
-    protected IWeightedMap<String> weightedSpawnMap;
 
     @Override
     protected void tick0(boolean firstRun, float time, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler) {
@@ -94,9 +64,9 @@ public class SummonInteraction extends SimpleInteraction {
             }
 
             String entityToSpawn = this.entityId;
-            if (this.weightedSpawnMap != null) {
-                entityToSpawn = this.weightedSpawnMap.get(ThreadLocalRandom.current());
-            }
+//            if (this.weightedSpawnMap != null) {
+//                entityToSpawn = this.weightedSpawnMap.get(ThreadLocalRandom.current());
+//            }
 
             boolean spawned = trySpawn(blockPosition, entityToSpawn, accessor, context);
             if (!spawned) {
@@ -164,30 +134,4 @@ public class SummonInteraction extends SimpleInteraction {
         }
     }
 
-    protected static class WeightedNPCSpawn implements IWeightedElement {
-        private static final BuilderCodec<SummonInteraction.WeightedNPCSpawn> CODEC = BuilderCodec.builder(
-                        SummonInteraction.WeightedNPCSpawn.class, SummonInteraction.WeightedNPCSpawn::new
-                )
-                .append(new KeyedCodec<>("Id", Codec.STRING), (spawn, s) -> spawn.id = s, spawn -> spawn.id)
-                .documentation("The Role ID of the NPC to spawn.")
-                .addValidator(Validators.nonNull())
-                .addValidator(NPCRoleValidator.INSTANCE)
-                .add()
-                .<Double>append(new KeyedCodec<>("Weight", Codec.DOUBLE, true), (spawn, d) -> spawn.weight = d, spawn -> spawn.weight)
-                .documentation("The relative weight of this NPC (chance of being spawned is this value relative to the sum of all weights).")
-                .addValidator(Validators.nonNull())
-                .addValidator(Validators.greaterThan(0.0))
-                .add()
-                .build();
-        private String id;
-        private double weight;
-
-        private WeightedNPCSpawn() {
-        }
-
-        @Override
-        public double getWeight() {
-            return this.weight;
-        }
-    }
 }
