@@ -42,8 +42,3 @@ Armor_Onesie_Bear_Legs.description = <color is="#b55088"><b>attuned to the wired
 Glyph_Stitching_All.name = glyph stitching
 Glyph_Stitching_All.description = <color is="#b55088"><b>essence-soaked threads take form as glyphs to light the way...</b></color> \n<color is="#ffffff">try alongside "hexcode" mod to help draw glyphs!</color>
 Glyph_Stitching_All.description.patch = <color is="#b55088"><b>essence-soaked threads take form as glyphs to light the way...</b></color>
-
-
-# ==== Hint ====
-
-interactionHints.despawn = Press [{key}] to despawn

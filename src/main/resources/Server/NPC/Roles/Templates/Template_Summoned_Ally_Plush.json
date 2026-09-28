@@ -386,7 +386,8 @@
             "Sensors": [
               {
                 "Type": "InflictedDamage",
-                "Target": "FlockLeader"
+                "Target": "FlockLeader",
+                "FriendlyFire": true
               },
               {
                 "Type": "FlockCombatDamage",
@@ -419,7 +420,8 @@
                 "Sensors": [
                   {
                     "Type": "InflictedDamage",
-                    "Target": "FlockLeader"
+                    "Target": "FlockLeader",
+                    "FriendlyFire": true
                   },
                   {
                     "Type": "FlockCombatDamage",
@@ -1086,7 +1088,7 @@
           {
             "Type": "SetInteractable",
             "Interactable": true,
-            "Hint": "pillow.pillowcode.interactionHints.despawn"
+            "Hint": "server.interaction.squeeze"
           }
         ]
       },
@@ -1099,16 +1101,8 @@
           {
             "Actions": [
               {
-                "Type": "SpawnParticles",
-                "Offset": [ 0, 0.5, 0 ],
-                "ParticleSystem": "Effect_Death"
-              },
-              {
                 "Type": "PlaySound",
                 "SoundEventId": "SFX_Plushie_Build"
-              },
-              {
-                "Type": "Despawn"
               }
             ]
           }
