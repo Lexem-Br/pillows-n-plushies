@@ -1117,8 +1117,8 @@
                         "textureLayout": {
                           "back": {
                             "offset": {"x": 84, "y": 54},
-                            "mirror": {"x": true, "y": true},
-                            "angle": 90
+                            "mirror": {"x": false, "y": false},
+                            "angle": 270
                           },
                           "right": {
                             "offset": {"x": 88, "y": 54},
@@ -1137,8 +1137,8 @@
                           },
                           "top": {
                             "offset": {"x": 92, "y": 45},
-                            "mirror": {"x": false, "y": false},
-                            "angle": 90
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
                           },
                           "bottom": {
                             "offset": {"x": 92, "y": 45},
@@ -1448,13 +1448,13 @@
                                   },
                                   "right": {
                                     "offset": {"x": 88, "y": 45},
-                                    "mirror": {"x": true, "y": true},
-                                    "angle": 90
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 270
                                   },
                                   "front": {
                                     "offset": {"x": 84, "y": 54},
-                                    "mirror": {"x": true, "y": true},
-                                    "angle": 90
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 270
                                   },
                                   "left": {
                                     "offset": {"x": 92, "y": 54},
@@ -1468,8 +1468,8 @@
                                   },
                                   "bottom": {
                                     "offset": {"x": 92, "y": 54},
-                                    "mirror": {"x": true, "y": true},
-                                    "angle": 90
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 270
                                   }
                                 },
                                 "unwrapMode": "custom",
@@ -1481,8 +1481,8 @@
                             {
                               "id": "47",
                               "name": "R-Attachment",
-                              "position": {"x": -12.07818, "y": 3.45723, "z": 1},
-                              "orientation": {"x": 0.08583, "y": 0.01513, "z": 0.17299, "w": 0.98106},
+                              "position": {"x": -10.07818, "y": 0.45723, "z": 1},
+                              "orientation": {"x": 0.69636, "y": 0.12279, "z": 0.12279, "w": 0.69636},
                               "shape": {
                                 "type": "none",
                                 "offset": {"x": 0, "y": 0, "z": 0},
