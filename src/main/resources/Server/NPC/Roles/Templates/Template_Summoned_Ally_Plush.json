@@ -361,15 +361,6 @@
                 "Type": "Timer",
                 "Name": "DespawnTimer",
                 "State": "Stopped"
-              },
-              {
-                "Type": "Self",
-                "Filters": [
-                  {
-                    "Type": "Flock",
-                    "FlockPlayerStatus": "NotMember"
-                  }
-                ]
               }
             ]
           },
@@ -860,7 +851,7 @@
               "ActionsBlocking": true,
               "Actions": [
                 {
-                  "$Comment": "TODO: Brief delay before attack so NPC can stop moving. Do we  need it?",
+                  "$Comment": "TODO: Brief delay before attack so NPC can stop moving. Do we need it?",
                   "Type": "Timeout",
                   "Delay": { "Compute": "CombatAttackPreDelay" }
                 },

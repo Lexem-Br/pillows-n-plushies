@@ -1,0 +1,31 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Summoned_Ally_Plush",
+  "Modify": {
+    "DeathParticles": "Effect_Death",
+    "MaxHealth": 81,
+    "HearingRange": 8,
+    "ViewSector": 270,
+    "Appearance": "Hex_Farren_Plush",
+    "Weapons": [
+      "Weapon_Cannon_Pillow_2"
+    ],
+    "OffHand": [],
+    "DefaultOffHandSlot": 0,
+    "FlockArray": [ "Risen_Gunner" ],
+    "Attack": "Root_Plush_Cannon_Shoot",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 15,
+    "CombatFleeIfTooCloseDistance": 4,
+    "DesiredAttackDistanceRange": [ 5, 14.5 ],
+    "CombatBehaviorDistance": 15,
+    "TargetRange": 15,
+    "CombatAttackPreDelay": [ 0.1, 0.3 ],
+    "MaxSpeed": 12,
+    "ApplySeparation": true,
+    "BreathesInWater": true,
+    "CombatStrafingDurationRange": [ 0.2, 1 ],
+    "BlockProbability": 0,
+    "NameTranslationKey": "Summon Cannon Plush"
+  }
+}

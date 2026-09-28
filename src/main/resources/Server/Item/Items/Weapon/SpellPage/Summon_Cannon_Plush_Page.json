@@ -14,7 +14,7 @@
   "Icon": "Icons/ItemsGenerated/Summon_Cannon_Plush_Page.png",
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "PlayerAnimationsId": "Spellbook",
-  "MaxStack": 1,
+  "MaxStack": 10,
   "Tags": {
     "Type": [
       "Weapon"
@@ -45,9 +45,66 @@
                 "ItemAnimationId": "Interact"
               }
             },
-            "0.8": {
+            "0.8":  {
               "Type": "Pillows:Summon",
-              "EntityId": "Summon_Plush",
+              "WeightedEntityIds": [
+                {
+                  "Id": "Summon_Plush_Cannon_Edilan",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Farren",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Foxy",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Gaia",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Heru",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Ikari",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Lordimass",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_MelodicAlbuild",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Oatman",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Oruuke",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Preston",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Riprod",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Slushy",
+                  "Weight": 1
+                },
+                {
+                  "Id": "Summon_Plush_Cannon_Syprus",
+                  "Weight": 1
+                }
+              ],
               "Next": {
                 "Type": "Serial",
                 "Interactions": [
