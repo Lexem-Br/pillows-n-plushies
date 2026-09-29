@@ -1,0 +1,9 @@
+{
+  "Parent": "Weapon_Cannon_Pillow",
+  "TranslationProperties": {
+    "Name": "pillow.items.Weapon_Cannon_Pillow_Summon.name"
+  },
+  "Model": "Items/Weapons/Cannon/Obelisk_Pillow_2.blockymodel",
+  "Texture": "Items/Weapons/Cannon/Obelisk_Pillow.png",
+  "Quality": "Technical"
+}

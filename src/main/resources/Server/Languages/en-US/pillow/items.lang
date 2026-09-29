@@ -127,6 +127,7 @@ Potion_Morph_Plushie_Template.name = Template Potion of Plushie Morphing
 # ==== cannons ====
 
 Weapon_Cannon_Pillow.name = pillow cannon
+Weapon_Cannon_Pillow_Summon.name = summoned pillow cannon
 
 
 # ==== carpet ====
