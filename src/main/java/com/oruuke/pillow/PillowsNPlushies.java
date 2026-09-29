@@ -6,6 +6,7 @@ import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Int
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
+import com.oruuke.pillow.interactions.ApplyEffectRandomModelInteraction;
 import com.oruuke.pillow.interactions.DropItemInteraction;
 import com.oruuke.pillow.interactions.SummonInteraction;
 import com.riprod.patchly.PatchManager;
@@ -53,5 +54,6 @@ public class PillowsNPlushies extends JavaPlugin {
     private void registerInteractions() {
         this.getCodecRegistry(Interaction.CODEC).register("Pillows:DropItem", DropItemInteraction.class, DropItemInteraction.CODEC);
         this.getCodecRegistry(Interaction.CODEC).register("Pillows:Summon", SummonInteraction.class, SummonInteraction.CODEC);
+        this.getCodecRegistry(Interaction.CODEC).register("Pillows:ApplyEffectRandomModel", ApplyEffectRandomModelInteraction.class, ApplyEffectRandomModelInteraction.CODEC);
     }
 }

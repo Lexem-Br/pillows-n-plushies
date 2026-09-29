@@ -1,0 +1,55 @@
+{
+  "Parent": "Potion_Morph_Plushie_Template",
+  "TranslationProperties": {
+    "Name": "pillow.items.Potion_Morph_Plushie_Random.name"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "Pillows:ApplyEffectRandomModel",
+          "EffectId": "Potion_Morph_Hex_Template",
+          "WeightedEntityIds": [
+            {
+              "Id": "Hex_Farren_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Gaia_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Ikari_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Lordimass_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_MelodicAlbuild_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Oatman_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Oruuke_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Preston_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Riprod_Plush",
+              "Weight": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Quality": "Rare"
+}

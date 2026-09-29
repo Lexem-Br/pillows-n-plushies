@@ -1,0 +1,6 @@
+{
+  "Type": "Condition",
+  "Crouching": false,
+  "Next": "Consume_Charge_Potion_Fast_Plush",
+  "Failed": "Block_Secondary"
+}

@@ -111,7 +111,17 @@ Bench_Pillowmill.description = <color is="#b55088"><b>oddly intimidating...</b><
 
 # ==== potions ====
 
-Potion_Morph_Plushie.name = potion of plushie morphing
+Potion_Morph_Plushie_Farren.name = Potion of Plushie Farren Morphing
+Potion_Morph_Plushie_Gaia.name = Potion of Plushie Gaia Morphing
+Potion_Morph_Plushie_Ikari.name = Potion of Plushie Ikari Morphing
+Potion_Morph_Plushie_Lordimass.name = Potion of Plushie Lordimass Morphing
+Potion_Morph_Plushie_MelodicAlbuild.name = Potion of Plushie MelodicAlbuild Morphing
+Potion_Morph_Plushie_Oatman.name = Potion of Plushie Oatman Morphing
+Potion_Morph_Plushie_Oruuke.name = Potion of Plushie Oruuke Morphing
+Potion_Morph_Plushie_Preston.name = Potion of Plushie Preston Morphing
+Potion_Morph_Plushie_Random.name = Potion of Plushie Morphing Random
+Potion_Morph_Plushie_Riprod.name = Potion of Plushie Riprod Morphing
+Potion_Morph_Plushie_Template.name = Template Potion of Plushie Morphing
 
 
 # ==== cannons ====

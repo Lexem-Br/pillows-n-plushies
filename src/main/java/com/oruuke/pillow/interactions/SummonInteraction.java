@@ -32,7 +32,6 @@ import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.hypixel.hytale.server.npc.NPCPlugin;
 import com.hypixel.hytale.server.npc.entities.NPCEntity;
-import com.hypixel.hytale.server.npc.interactions.SpawnNPCInteraction;
 import com.hypixel.hytale.server.npc.validators.NPCRoleValidator;
 import it.unimi.dsi.fastutil.Pair;
 import org.joml.Vector3d;
