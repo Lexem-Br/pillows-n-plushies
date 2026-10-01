@@ -16,7 +16,10 @@
         "Hytale:BlockModule": "*"
     },
     "OptionalDependencies": {
-        "Riprod:Patchly": "*"
+        "Riprod:Patchly": "*",
+        "Riprod:Hexcode": "*",
+        "Lexem:HexcodeEvoke": "*",
+        "Alechilles:Alec's Radial Menu": "*"
     },
     "DisabledByDefault": false,
     "Main": "com.oruuke.pillow.PillowsNPlushies",
