@@ -1,11 +1,15 @@
 package com.oruuke.pillow;
 
+import com.hypixel.hytale.common.plugin.PluginIdentifier;
 import com.hypixel.hytale.component.ComponentRegistryProxy;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
+import com.hypixel.hytale.server.core.plugin.PluginBase;
+import com.hypixel.hytale.server.core.plugin.PluginManager;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
+import com.oruuke.pillow.builtin.HexcodeBuiltin;
 import com.oruuke.pillow.interactions.ApplyEffectRandomModelInteraction;
 import com.oruuke.pillow.interactions.DropItemInteraction;
 import com.oruuke.pillow.interactions.SummonInteraction;
@@ -28,7 +32,10 @@ public class PillowsNPlushies extends JavaPlugin {
     @Override
     protected void setup() {
         patchManager.install();
-        this.registerEntityComponents();
+        //this.registerEntityComponents();
+        if (isHexcodeInstalled()) {
+            HexcodeBuiltin.setup(this);
+        }
         this.registerInteractions();
     }
 
@@ -47,8 +54,10 @@ public class PillowsNPlushies extends JavaPlugin {
         patchManager.shutdown();
     }
 
-    private void registerEntityComponents() {
-        ComponentRegistryProxy<EntityStore> entityStoreRegistry = this.getEntityStoreRegistry();
+    private boolean isHexcodeInstalled() {
+        PluginBase hexcode = PluginManager.get()
+                .getPlugin(PluginIdentifier.fromString("Riprod:Hexcode"));
+        return hexcode != null && hexcode.isEnabled();
     }
 
     private void registerInteractions() {
