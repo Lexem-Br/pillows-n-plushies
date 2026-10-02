@@ -11,6 +11,6 @@
     "Bounciness": 0.5,
     "SticksVertically": false
   },
-  "LaunchLocalSoundEventId": "SFX_Plushie_Build",
-  "LaunchWorldSoundEventId": "SFX_Plushie_Build"
+  "LaunchLocalSoundEventId": "SFX_Bush_Break",
+  "LaunchWorldSoundEventId": "SFX_Bush_Break"
 }

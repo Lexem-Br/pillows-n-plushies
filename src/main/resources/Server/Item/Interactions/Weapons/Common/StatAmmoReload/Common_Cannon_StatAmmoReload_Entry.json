@@ -7,8 +7,8 @@
     "RunTime": 0.4,
     "Effects": {
       "ItemAnimationId": "ReloadReady",
-      "WorldSoundEventId": "SFX_Door_Crude_Open",
-      "LocalSoundEventId": "SFX_Door_Crude_Open",
+      "WorldSoundEventId": "SFX_Cloth_Hit",
+      "LocalSoundEventId": "SFX_Cloth_Hit",
       "ClearAnimationOnFinish": true
     },
     "Next": {

@@ -37,6 +37,6 @@
   "DeadTimeMiss": 0,
   "VerticalCenterShot": 0,
   "HorizontalCenterShot": 0,
-  "HitSoundEventId": "SFX_Plushie_Build",
-  "MissSoundEventId": "SFX_Plushie_Build"
+  "HitSoundEventId": "SFX_Unarmed_Impact",
+  "MissSoundEventId": "SFX_Unarmed_Swing"
 }

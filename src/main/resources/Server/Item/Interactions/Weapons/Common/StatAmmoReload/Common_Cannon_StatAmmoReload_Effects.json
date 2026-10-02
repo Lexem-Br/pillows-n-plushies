@@ -4,8 +4,8 @@
   "HorizontalSpeedMultiplier": 0.75,
   "Effects": {
     "ItemAnimationId": "Reload",
-    "WorldSoundEventId": "SFX_Hand_Crossbow_T2_Load",
-    "LocalSoundEventId": "SFX_Hand_Crossbow_T2_Load_Local",
+    "WorldSoundEventId": "SFX_Cloth_Break",
+    "LocalSoundEventId": "SFX_Cloth_Break",
     "ClearAnimationOnFinish": true
   }
 }

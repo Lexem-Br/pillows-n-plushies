@@ -4,7 +4,7 @@
     {
       "Type": "Simple",
       "Effects": {
-        "WorldSoundEventId": "SFX_Plushie_Build"
+        "WorldSoundEventId": "SFX_Cloth_Land"
       }
     }
   ]
