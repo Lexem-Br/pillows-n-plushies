@@ -1,0 +1,1333 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "R-Attachment",
+      "position": {"x": 0, "y": 57, "z": 0},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 1, "y": 1, "z": 1},
+        "settings": {
+          "isPiece": true
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "Origin_Projectile",
+          "position": {"x": -5.7, "y": 35.28926, "z": 1.93217},
+          "orientation": {"x": -0.01282, "y": -0.70016, "z": -0.09888, "w": 0.70699},
+          "shape": {
+            "type": "none",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "3",
+              "name": "Origin_Item",
+              "position": {"x": 0.61596, "y": -57.42139, "z": -7.00434},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+              "shape": {
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false
+                },
+                "textureLayout": {},
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": [
+                {
+                  "id": "4",
+                  "name": "Glider-Body",
+                  "position": {"x": -0.13198, "y": 1.66648, "z": -1.21},
+                  "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                  "shape": {
+                    "type": "none",
+                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 1, "y": 1, "z": 1},
+                    "settings": {
+                      "isPiece": false
+                    },
+                    "textureLayout": {},
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  },
+                  "children": [
+                    {
+                      "id": "5",
+                      "name": "Fabric--C1",
+                      "position": {"x": -0.64189, "y": 8.43532, "z": 6.18477},
+                      "orientation": {"x": -0.682, "y": 0, "z": 0, "w": 0.73135},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0.15791, "y": 2, "z": 3.5},
+                        "stretch": {"x": -1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 10, "y": 14, "z": 55},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 65, "y": 129},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 55, "y": 129},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 75, "y": 129},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 0, "y": 129},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 55, "y": 143},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 90
+                          },
+                          "bottom": {
+                            "offset": {"x": 55, "y": 153},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 270
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "6",
+                      "name": "cube--C2",
+                      "position": {"x": 7.685, "y": 52.9625, "z": 10.88584},
+                      "orientation": {"x": -0.44014, "y": 0.46656, "z": -0.44427, "w": 0.62548},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 21, "y": -1, "z": 0},
+                        "stretch": {"x": 0.9, "y": 0.9, "z": 0.9},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 55, "y": 19},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 76, "y": 129},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "7",
+                      "name": "cube--C3",
+                      "position": {"x": -8.65297, "y": 52.9625, "z": 10.88584},
+                      "orientation": {"x": -0.44014, "y": -0.46656, "z": 0.44427, "w": 0.62548},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": -21, "y": -1, "z": 0},
+                        "stretch": {"x": 0.9, "y": 0.9, "z": 0.9},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 55, "y": 19},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 131, "y": 129},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "8",
+                      "name": "Glider-Flap3--C4",
+                      "position": {"x": -8.56138, "y": -16.3891, "z": -0.84375},
+                      "orientation": {"x": -0.6548, "y": -0.47142, "z": 0.37938, "w": 0.45284},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": -17.1, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 37, "y": 12},
+                          "normal": "-Y",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 57, "y": 75},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "9",
+                      "name": "Glider-Flap2--C5",
+                      "position": {"x": -13.7867, "y": -17.23359, "z": -0.31706},
+                      "orientation": {"x": -0.08276, "y": -0.6074, "z": -0.28432, "w": 0.73714},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": -3.3, "y": -3.5, "z": -4.2},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 8, "y": 13},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 55, "y": 102},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "10",
+                      "name": "Glider-Flap--C6",
+                      "position": {"x": -12.22954, "y": 48.48981, "z": 0.588},
+                      "orientation": {"x": 0.13951, "y": 0.92955, "z": 0.33944, "w": -0.03545},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 17, "y": 19},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 77, "y": 74},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "11",
+                      "name": "Support--C7",
+                      "position": {"x": -13.75654, "y": 23.37974, "z": -8.31593},
+                      "orientation": {"x": -0.24459, "y": 0.49135, "z": 0.62845, "w": 0.55118},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": -2.5, "y": 2, "z": 19.5},
+                        "stretch": {"x": -1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 5, "y": 5, "z": 46},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 137, "y": 129},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 173, "y": 1},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 90
+                          },
+                          "front": {
+                            "offset": {"x": 142, "y": 129},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 178, "y": 47},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 90
+                          },
+                          "top": {
+                            "offset": {"x": 178, "y": 47},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 183, "y": 1},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "12",
+                      "name": "Knot--C8",
+                      "position": {"x": -5.03832, "y": -6.29534, "z": 0.07621},
+                      "orientation": {"x": 0.1309, "y": -0.06613, "z": 0.03313, "w": 0.98863},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": -3.04375, "y": -8.4728, "z": -0.07981},
+                        "stretch": {"x": 1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 8, "y": 4, "z": 7},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 46, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 39, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 31, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 39, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 48, "y": 116},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 48, "y": 116},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "13",
+                      "name": "Knot--C9",
+                      "position": {"x": -6.1928, "y": 54.67952, "z": 9.82379},
+                      "orientation": {"x": 0.12005, "y": 0.06665, "z": -0.04621, "w": 0.98945},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0.7, "z": -0.4},
+                        "stretch": {"x": 1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 8, "y": 4, "z": 7},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 46, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 39, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 31, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 39, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 48, "y": 116},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 48, "y": 116},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "14",
+                      "name": "Support--C10",
+                      "position": {"x": -6.97203, "y": 23.81981, "z": 4.25553},
+                      "orientation": {"x": 0.76499, "y": -0.02015, "z": 0.00607, "w": 0.6437},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 4},
+                        "stretch": {"x": -1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 5, "y": 5, "z": 79},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 137, "y": 129},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 148, "y": 1},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 90
+                          },
+                          "front": {
+                            "offset": {"x": 132, "y": 134},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 153, "y": 80},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 90
+                          },
+                          "top": {
+                            "offset": {"x": 153, "y": 80},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 158, "y": 1},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "15",
+                      "name": "Support--C11",
+                      "position": {"x": -0.46805, "y": -9.96484, "z": -6.41712},
+                      "orientation": {"x": 0.76499, "y": -0.02015, "z": 0.00607, "w": 0.6437},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 4},
+                        "stretch": {"x": -1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 3, "y": 3, "z": 28},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 139, "y": 131},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 150, "y": 1},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 90
+                          },
+                          "front": {
+                            "offset": {"x": 132, "y": 132},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 151, "y": 29},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 90
+                          },
+                          "top": {
+                            "offset": {"x": 153, "y": 80},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 158, "y": 52},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "16",
+                      "name": "Knot--C12",
+                      "position": {"x": -0.94409, "y": -20.11562, "z": -7.99699},
+                      "orientation": {"x": 0.02866, "y": -0.67563, "z": -0.01856, "w": 0.73645},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1.125, "y": 1, "z": 1.125},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 5, "y": 4, "z": 4},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 9, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 5, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 0, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 5, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 14, "y": 99},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 142, "y": 135},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "17",
+                      "name": "Glider-Flap2",
+                      "position": {"x": 6.88772, "y": -13.01137, "z": -1.67396},
+                      "orientation": {"x": -0.56279, "y": 0.52833, "z": -0.477, "w": 0.42025},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 11.4, "y": 0.3, "z": 5},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 22, "y": 28},
+                          "normal": "-Y"
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 192, "y": 159},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 90
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      },
+                      "children": [
+                        {
+                          "id": "18",
+                          "name": "Glider-Flap3",
+                          "position": {"x": 6.8, "y": 0, "z": -6.6},
+                          "orientation": {"x": 0, "y": 0.26724, "z": 0, "w": 0.96363},
+                          "shape": {
+                            "type": "none",
+                            "offset": {"x": 9, "y": 0, "z": 8},
+                            "stretch": {"x": 1, "y": 1, "z": 1},
+                            "settings": {
+                              "isPiece": false
+                            },
+                            "textureLayout": {},
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": false,
+                            "shadingMode": "flat"
+                          },
+                          "children": [
+                            {
+                              "id": "19",
+                              "name": "Glider-Flap3--C1",
+                              "position": {"x": -9, "y": 0, "z": -8},
+                              "orientation": {"x": 0.00218, "y": 0, "z": 0, "w": 1},
+                              "shape": {
+                                "type": "quad",
+                                "offset": {"x": 9, "y": 0, "z": 8},
+                                "stretch": {"x": 1, "y": 1, "z": 1},
+                                "settings": {
+                                  "isPiece": false,
+                                  "size": {"x": 18, "y": 28},
+                                  "normal": "-Y",
+                                  "isStaticBox": true
+                                },
+                                "textureLayout": {
+                                  "front": {
+                                    "offset": {"x": 192, "y": 137},
+                                    "mirror": {"x": true, "y": false},
+                                    "angle": 90
+                                  }
+                                },
+                                "unwrapMode": "custom",
+                                "visible": true,
+                                "doubleSided": true,
+                                "shadingMode": "flat"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "20",
+                      "name": "Knot--C13",
+                      "position": {"x": 4.07034, "y": -6.29535, "z": 0.07625},
+                      "orientation": {"x": 0.1309, "y": 0.06613, "z": -0.03313, "w": 0.98863},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 3.04375, "y": -8.4728, "z": -0.07981},
+                        "stretch": {"x": 1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 8, "y": 4, "z": 7},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 54, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 46, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 39, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 46, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 56, "y": 116},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 56, "y": 116},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "21",
+                      "name": "Knot--C14",
+                      "position": {"x": 5.2248, "y": 54.67952, "z": 9.82377},
+                      "orientation": {"x": 0.15678, "y": -0.0549, "z": 0.03199, "w": 0.98559},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": -0.6},
+                        "stretch": {"x": 1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 8, "y": 4, "z": 7},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 54, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 46, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 39, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 46, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 56, "y": 116},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 56, "y": 116},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "22",
+                      "name": "Support--C15",
+                      "position": {"x": 6.00405, "y": 23.81981, "z": 4.25554},
+                      "orientation": {"x": 0.76499, "y": 0.02015, "z": -0.00607, "w": 0.6437},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 4},
+                        "stretch": {"x": -1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 5, "y": 5, "z": 79},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 142, "y": 129},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 153, "y": 1},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 90
+                          },
+                          "front": {
+                            "offset": {"x": 137, "y": 129},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 148, "y": 80},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 90
+                          },
+                          "top": {
+                            "offset": {"x": 158, "y": 80},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 153, "y": 1},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "23",
+                      "name": "Support--C16",
+                      "position": {"x": 12.78858, "y": 23.37974, "z": -8.31592},
+                      "orientation": {"x": -0.24459, "y": -0.49135, "z": -0.62845, "w": 0.55118},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 2.5, "y": 2, "z": 19.5},
+                        "stretch": {"x": -1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 5, "y": 5, "z": 46},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 142, "y": 129},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 178, "y": 1},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 90
+                          },
+                          "front": {
+                            "offset": {"x": 147, "y": 129},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 173, "y": 47},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 90
+                          },
+                          "top": {
+                            "offset": {"x": 183, "y": 47},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 178, "y": 1},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "24",
+                      "name": "Knot--C17",
+                      "position": {"x": 9.54814, "y": 13.09228, "z": -2.61912},
+                      "orientation": {"x": 0.01699, "y": 0.95153, "z": -0.09918, "w": 0.29064},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": -0.6},
+                        "stretch": {"x": 1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 5, "y": 4, "z": 4},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 14, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 9, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 5, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 9, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 19, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 19, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "25",
+                      "name": "Glider-Flap--C18",
+                      "position": {"x": 10.35995, "y": 11.48613, "z": -3.34946},
+                      "orientation": {"x": -0.13421, "y": 0.66486, "z": -0.00631, "w": 0.73479},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": -0.2, "y": -9.4, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 17, "y": 19},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 77, "y": 74},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "26",
+                      "name": "Glider-Flap",
+                      "position": {"x": -1.90789, "y": -21.29246, "z": -5.72792},
+                      "orientation": {"x": 0.44652, "y": 0.47232, "z": -0.56293, "w": 0.51053},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 0, "y": 2.5, "z": 9.5},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 22, "y": 13},
+                          "normal": "+X"
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 110, "y": 114},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 180
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      },
+                      "children": [
+                        {
+                          "id": "27",
+                          "name": "Glider-Flap2",
+                          "position": {"x": 0, "y": 0, "z": 11},
+                          "orientation": {"x": 0, "y": 0, "z": -0.70711, "w": 0.70711},
+                          "shape": {
+                            "type": "quad",
+                            "offset": {"x": 0, "y": 0, "z": 11},
+                            "stretch": {"x": 1, "y": 1, "z": 1},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 13, "y": 22},
+                              "normal": "+Y"
+                            },
+                            "textureLayout": {
+                              "front": {
+                                "offset": {"x": 110, "y": 114},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          },
+                          "children": [
+                            {
+                              "id": "28",
+                              "name": "Glider-Flap3",
+                              "position": {"x": 0, "y": 0, "z": 11},
+                              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                              "shape": {
+                                "type": "quad",
+                                "offset": {"x": 0, "y": 0, "z": 11},
+                                "stretch": {"x": 1, "y": 1, "z": 1},
+                                "settings": {
+                                  "isPiece": false,
+                                  "size": {"x": 13, "y": 22},
+                                  "normal": "+Y"
+                                },
+                                "textureLayout": {
+                                  "front": {
+                                    "offset": {"x": 132, "y": 114},
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 270
+                                  }
+                                },
+                                "unwrapMode": "custom",
+                                "visible": true,
+                                "doubleSided": true,
+                                "shadingMode": "flat"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "29",
+                      "name": "Glider-Flap",
+                      "position": {"x": -2.95259, "y": -19.74305, "z": -6.52517},
+                      "orientation": {"x": -0.06109, "y": -0.71054, "z": 0.69824, "w": -0.06216},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 1.35682, "y": 0.08615, "z": 10.58545},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 13, "y": 22},
+                          "normal": "+Y"
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 88, "y": 128},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 270
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      },
+                      "children": [
+                        {
+                          "id": "30",
+                          "name": "Glider-Flap2",
+                          "position": {"x": 0.14318, "y": -0.08615, "z": 9.91455},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "quad",
+                            "offset": {"x": -0.14318, "y": 0.08615, "z": 12.08545},
+                            "stretch": {"x": 1, "y": 1, "z": 1},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 13, "y": 22},
+                              "normal": "+Y"
+                            },
+                            "textureLayout": {
+                              "front": {
+                                "offset": {"x": 110, "y": 128},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          },
+                          "children": [
+                            {
+                              "id": "31",
+                              "name": "Glider-Flap3",
+                              "position": {"x": 0.14318, "y": -0.08615, "z": 9.91455},
+                              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                              "shape": {
+                                "type": "quad",
+                                "offset": {"x": -0.14318, "y": 0.08615, "z": 12.08545},
+                                "stretch": {"x": 1, "y": 1, "z": 1},
+                                "settings": {
+                                  "isPiece": false,
+                                  "size": {"x": 13, "y": 22},
+                                  "normal": "+Y"
+                                },
+                                "textureLayout": {
+                                  "front": {
+                                    "offset": {"x": 132, "y": 128},
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 270
+                                  }
+                                },
+                                "unwrapMode": "custom",
+                                "visible": true,
+                                "doubleSided": true,
+                                "shadingMode": "flat"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "32",
+                      "name": "Knot--C19",
+                      "position": {"x": -0.59665, "y": -3.99967, "z": -8.10109},
+                      "orientation": {"x": -0.98595, "y": 0.04459, "z": 0.01606, "w": 0.16018},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": -0.1},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 8, "y": 4, "z": 7},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 54, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 46, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 39, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 46, "y": 99},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 56, "y": 116},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 56, "y": 116},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "33",
+                      "name": "Pot-Handle--C20",
+                      "position": {"x": -0.55675, "y": 6.82823, "z": -4.45577},
+                      "orientation": {"x": -0.62592, "y": 0, "z": 0, "w": 0.77988},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0.87867, "z": -2.1948},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 6, "y": 4, "z": 31},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 184, "y": 100},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 184, "y": 100},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 90
+                          },
+                          "left": {
+                            "offset": {"x": 184, "y": 69},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 90
+                          },
+                          "top": {
+                            "offset": {"x": 184, "y": 69},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 184, "y": 100},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "34",
+                      "name": "Rope--C21",
+                      "position": {"x": -0.55675, "y": 27.01491, "z": -14.45577},
+                      "orientation": {"x": -0.70538, "y": -0.04933, "z": 0.04933, "w": 0.70538},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": -4.5, "z": 2.2},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 30, "y": 21, "z": 4},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 0, "y": 103},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 30, "y": 128},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 90
+                          },
+                          "front": {
+                            "offset": {"x": 0, "y": 103},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 30, "y": 128},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 90
+                          },
+                          "top": {
+                            "offset": {"x": 0, "y": 124},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 0, "y": 124},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "35",
+                      "name": "Glider-Body--C22",
+                      "position": {"x": -0.55675, "y": 26.31491, "z": -9.95577},
+                      "orientation": {"x": -0.70711, "y": 0, "z": 0, "w": 0.70711},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 26, "y": 19, "z": 24},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 50, "y": 55},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 26, "y": 55},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 0, "y": 55},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 26, "y": 55},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 26, "y": 74},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 0, "y": 74},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "format": "character",
+  "lod": "auto"
+}
