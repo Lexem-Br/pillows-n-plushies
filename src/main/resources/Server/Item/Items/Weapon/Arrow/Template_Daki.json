@@ -1,121 +1,24 @@
 {
-  "Parent": "Template_Weapon_Mace_Block",
-  "Quality": "Template",
   "Set": "Furniture_Misc",
-  "ItemSoundSetId": "ISS_Weapon_Blunt_Large",
   "Scale": 2.0,
-  "MaxStack": 100,
-  "ItemLevel": 8,
-  "MaxDurability": 69,
-  "DurabilityLossOnHit": 0.5,
   "Categories": [
-    "Blocks.Deco",
     "Items.Weapons",
+    "Blocks.Deco",
     "Furniture.Furniture"
   ],
-  "BlockType": {
-    "Material": "Solid",
-    "DrawType": "Model",
-    "CustomModel": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Items/Blocks/Pillows/Blank_Body_Pillow.png",
-        "Weight": 1
-      }
-    ],
-    "VariantRotation": "NESW",
-    "HitboxType": "Block_Body_Pillow",
-    "PlacementSettings": {
-      "RotationMode": "FacingPlayer",
-      "BlockPreviewVisibility": "Default",
-      "AllowRotationKey": true
-    },
-    "Seats": [
-      {
-        "Offset": {
-          "X": -0.1,
-          "Y": -0.18,
-          "Z": 0.1
-        },
-        "Yaw": -45
-      }
-    ],
-    "Interactions": {
-      "Use": "Plush_Seat"
-    },
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "SoftBlocks"
-      }
-    },
-    "ParticleColor": "#f5f5f5",
-    "Group": "Cloth",
-    "BlockSoundSetId": "Cloth",
-    "PhysicalMaterialId": "Cloth",
-    "BlockParticleSetId": "Dust"
-  },
-  "SubCategory": "daki",
-  "Tags": {
-    "Family": [
-      "Mace"
-    ],
-    "Type": [
-      "Weapon",
-      "Deco"
-    ]
-  },
-  "Weapon": {
-    "EntityStatsToClear": [
-      "SignatureEnergy"
-    ],
-    "StatModifiers": {
-      "SignatureEnergy": [
-        {
-          "Amount": 8,
-          "CalculationType": "Additive"
-        }
-      ]
-    }
-  },
+  "Reticle": "MaceMelee",
+  "PlayerAnimationsId": "Mace",
+  "Quality": "Template",
+  "ItemLevel": 9,
+  "Icon": "Icons/ItemsGenerated/Blank_Body_Pillow.png",
+  "Texture": "Items/Blocks/Pillows/Blank_Body_Pillow.png",
+  "Model": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
   "Interactions": {
     "Primary": "Root_Weapon_Mace_Primary",
     "Secondary": "Root_Weapon_Pillow_Secondary",
     "Ability1": "Root_Weapon_Mace_Signature_Groundslam"
   },
   "InteractionVars": {
-    "Swing_Left_Start": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Mace_Primary_Swing_Left",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Mace_T1_Swing",
-            "LocalSoundEventId": "SFX_Mace_T1_Swing_RL_Local"
-          }
-        }
-      ]
-    },
-    "Swing_Right_Start": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Mace_Primary_Swing_Right",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Mace_T1_Swing",
-            "LocalSoundEventId": "SFX_Mace_T1_Swing_LR_Local"
-          }
-        }
-      ]
-    },
-    "Swing_Up_Left_Start": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Mace_Primary_Swing_Up_Left",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Mace_T1_Swing",
-            "LocalSoundEventId": "SFX_Mace_T1_Swing_Up_Local"
-          }
-        }
-      ]
-    },
     "Swing_Left_Damage": {
       "Interactions": [
         {
@@ -332,5 +235,85 @@
         }
       ]
     }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Blocks/Pillows/Blank_Body_Pillow.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "Block_Body_Pillow",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "Default",
+      "AllowRotationKey": true
+    },
+    "Seats": [
+      {
+        "Offset": {
+          "X": -0.1,
+          "Y": -0.18,
+          "Z": 0.1
+        },
+        "Yaw": -45
+      }
+    ],
+    "Interactions": {
+      "Use": "Plush_Seat"
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "ParticleColor": "#f5f5f5",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
+  "MaxStack": 100,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Mace",
+      "Weapon"
+    ],
+    "Family": [
+      "Weapon",
+      "Deco",
+      "Arrow"
+    ]
+  },
+  "Weapon": {
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ],
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 8,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      178,
+      72,
+      81
+    ],
+    "Translation": [
+      -10,
+      -15
+    ]
   }
 }
