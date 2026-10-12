@@ -47,7 +47,7 @@
       "Description": "Relative speed at which run animation should be used. A value of 1 disables run animations"
     },
     "Weapons": {
-      "Value": [ "Weapon_Sword_Iron" ],
+      "Value": [ "Weapon_Cannon_Pillow_Summon" ],
       "Description": "NPC Weapons (and other main hand items)."
     },
     "DefaultHotbarSlot": {
