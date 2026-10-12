@@ -31,8 +31,8 @@
           "Type": "Simple",
           "RunTime": 1,
           "Effects": {
-            "LocalSoundEventId": "SFX_Plushie_Build",
-            "WorldSoundEventId": "SFX_Plushie_Build"
+            "LocalSoundEventId": "SFX_Soft_Break",
+            "WorldSoundEventId": "SFX_Soft_Break"
           }
         }
       ]
