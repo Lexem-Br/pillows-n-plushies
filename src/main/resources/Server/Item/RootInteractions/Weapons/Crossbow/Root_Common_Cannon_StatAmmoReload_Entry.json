@@ -1,5 +1,6 @@
 {
   "RequireNewClick": true,
+  "HudInputBindingEntry": "server.hud.inputBinding.reload",
   "Interactions": [
     {
       "Type": "StatsCondition",

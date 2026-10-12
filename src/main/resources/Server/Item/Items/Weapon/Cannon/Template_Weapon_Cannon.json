@@ -21,14 +21,15 @@
     "Primary": "Root_Weapon_Cannon_Primary",
     "Secondary": "Root_Zoom_Cannon_ADS",
     "Ability1": "Root_Weapon_Crossbow_Signature_BigArrow",
-    "Ability3": "Root_Common_Cannon_StatAmmoReload_Entry"
+    "Ability4": "Root_Common_Cannon_StatAmmoReload_Entry"
   },
   "InteractionVars": {
     "Standard_Projectile_Impact": {
       "Interactions": [
         {
           "$Comment": "When the standard projectile hits an entity",
-          "Parent": "Weapon_Crossbow_Effects_Standard_Projectile_Impact",
+          "Type": "Simple",
+          "RunTime": 1,
           "Effects": {
             "LocalSoundEventId": "SFX_Plushie_Build",
             "WorldSoundEventId": "SFX_Plushie_Build"
@@ -57,19 +58,6 @@
             "ItemAnimationId": "Interact",
             "WorldSoundEventId": "SFX_Bow_No_Ammo",
             "LocalSoundEventId": "SFX_Bow_No_Ammo"
-          }
-        }
-      ]
-    },
-    "Overcharge_Start": {
-      "Interactions": [
-        {
-          "$Comment": "This is played at the start of the Overcharge ability, before loading arrows",
-          "Parent": "Weapon_Crossbow_Primary_Overcharge_Start",
-          "Effects": {
-            "ItemAnimationId": "ReloadReady",
-            "WorldSoundEventId": "SFX_Hand_Crossbow_T2_Reload_Start",
-            "LocalSoundEventId": "SFX_Hand_Crossbow_T2_Reload_Start_Local"
           }
         }
       ]
