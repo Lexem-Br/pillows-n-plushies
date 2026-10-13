@@ -169,7 +169,7 @@
               "PositionOffset": {
                 "Y": 1.5
               },
-              "Color": "#FFFFFF",
+              "Color": "#FFAFFF",
               "Scale": 1.3
             },
             {
@@ -177,7 +177,7 @@
               "PositionOffset": {
                 "Y": 0.0
               },
-              "Color": "#ECEFF1",
+              "Color": "#FFAFFF",
               "Scale": 1.2
             },
             {
@@ -185,7 +185,7 @@
               "PositionOffset": {
                 "Y": -1.5
               },
-              "Color": "#ECEFF1",
+              "Color": "#B55088",
               "Scale": 1.3
             }
           ]

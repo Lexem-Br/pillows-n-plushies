@@ -33,7 +33,7 @@
         ]
       }
     ],
-    "TimeSeconds": 4
+    "TimeSeconds": 1
   },
   "BlockType": {
     "Material": "Solid",
