@@ -1,1 +1,5 @@
+- pillow cannon
 - plushie morphing
+- recipe tweaks
+- many improvements
+- bread
