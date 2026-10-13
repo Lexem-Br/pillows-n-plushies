@@ -11,8 +11,7 @@
       "LifeHexBook"
     ]
   },
-  "MaxCapacity": 10,
-	"Weapon": {
+  "Weapon": {
     "StatModifiers": {
       "Affinity_Life": [
         {
@@ -23,7 +22,7 @@
       ]
     }
   },
-	"ItemSoundSetId": "ISS_Weapons_Books",
+  "ItemSoundSetId": "ISS_Weapons_Books",
   "Recipe": {
     "BenchRequirement": [
       {

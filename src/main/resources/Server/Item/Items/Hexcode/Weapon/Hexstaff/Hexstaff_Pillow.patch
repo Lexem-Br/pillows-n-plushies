@@ -15,7 +15,18 @@
     "Primary": "Hexstaff_Primary",
     "Secondary": "Hexstaff_Secondary",
     "Ability1": "Hexstaff_Ability1",
-    "Ability3": "Hexstaff_Ability3"
+    "Ability4": "Hexstaff_Ability4"
+  },
+  "ItemAppearanceConditions": {
+    "SignatureEnergy": [
+      {
+        "Condition": [
+          100,
+          100
+        ],
+        "ConditionValueType": "Percent"
+      }
+    ]
   },
   "Weapon": {
     "StatModifiers": {
