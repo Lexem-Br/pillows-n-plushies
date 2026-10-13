@@ -5,34 +5,6 @@
     "Name": "pillow.items.Potion_Morph_Plushie_Template.name"
   },
   "Icon": "Icons/ItemsGenerated/Potion_Morph_Dog.png",
-  "Recipe": {
-    "TimeSeconds": 1,
-    "KnowledgeRequired": false,
-    "Input": [
-      {
-        "ItemId": "Potion_Empty",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Life_Essence",
-        "Quantity": 10
-      },
-      {
-        "ItemId": "Weapon_Daggers_Iron",
-        "Quantity": 1
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Alchemybench",
-        "Type": "Crafting",
-        "Categories": [
-          "Alchemy_Potions_Misc"
-        ]
-      }
-    ],
-    "RequiredMemoriesLevel": 4
-  },
   "Interactions": {
     "Primary": "Block_Primary",
     "Secondary": "Root_Secondary_Consume_Potion_Morph_Plush"

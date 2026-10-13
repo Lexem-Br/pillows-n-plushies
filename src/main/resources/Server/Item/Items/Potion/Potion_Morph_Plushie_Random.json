@@ -1,8 +1,10 @@
 {
   "Parent": "Potion_Morph_Plushie_Template",
   "TranslationProperties": {
-    "Name": "pillow.items.Potion_Morph_Plushie_Random.name"
+    "Name": "pillow.items.Potion_Morph_Plushie_Random.name",
+    "Description": "pillow.items.Potion_Morph_Plushie_Random.description"
   },
+  "Quality": "Rare",
   "InteractionVars": {
     "Effect": {
       "Interactions": [
@@ -51,5 +53,36 @@
       ]
     }
   },
-  "Quality": "Rare"
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Potion_Empty",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Alchemybench",
+        "Type": "Crafting",
+        "Categories": [
+          "Alchemy_Potions_Misc"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 4
+  }
 }
