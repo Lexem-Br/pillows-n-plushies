@@ -1,12 +1,12 @@
 {
-  "PlayerAnimationsId": "Crossbow",
+  "PlayerAnimationsId": "Cannon",
   "Reticle": "ReticleCannon",
   "Quality": "Template",
   "Categories": [
     "Items.Weapons"
   ],
   "Utility": {
-    "Compatible": true
+    "Compatible": false
   },
   "Tags": {
     "Type": [
