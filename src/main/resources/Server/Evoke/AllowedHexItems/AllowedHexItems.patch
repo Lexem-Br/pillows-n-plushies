@@ -1,4 +1,5 @@
 {
+    "$Requires": ["Lexem:HexcodeEvoke", "Alechilles:Alec's Radial Menu"],
     "AllowedHexItems+": [
         {
             "BlockId": "Rimuru_Slime_Plush",
