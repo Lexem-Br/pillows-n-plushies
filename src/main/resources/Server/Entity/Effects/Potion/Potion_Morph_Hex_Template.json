@@ -25,7 +25,12 @@
         }
       }
     ],
-    "WorldSoundEventId": "SFX_Cloth_Break"
+    "WorldSoundEventId": "SFX_Cloth_Break",
+    "KnockbackMultiplier": 2,
+    "HorizontalSpeedMultiplier": 1,
+    "MovementEffects": {
+      "SpeedMultiplier": 1.5
+    }
   },
   "DamageResistance": {
     "Fall": [
@@ -39,5 +44,13 @@
     {
       "Id": "Alive"
     }
-  ]
+  ],
+  "RawStatModifiers": {
+    "Stamina": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 2
+      }
+    ]
+  }
 }
