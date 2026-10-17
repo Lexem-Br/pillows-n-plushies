@@ -22,7 +22,7 @@
           }
         },
         {
-          "Type": "Pillows:DropItem",
+          "Type": "Pillow:DropItem",
           "ItemId": "Blank_Body_Pillow"
         },
         "Common_Projectile_Despawn_Pillow"
@@ -41,7 +41,7 @@
           }
         },
         {
-          "Type": "Pillows:DropItem",
+          "Type": "Pillow:DropItem",
           "ItemId": "Blank_Body_Pillow"
         },
         "Common_Projectile_Despawn_Pillow"

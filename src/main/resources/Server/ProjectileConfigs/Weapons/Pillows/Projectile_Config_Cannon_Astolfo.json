@@ -15,7 +15,7 @@
           }
         },
         {
-          "Type": "Pillows:DropItem",
+          "Type": "Pillow:DropItem",
           "ItemId": "Astolfo_Body_Pillow"
         },
         "Common_Projectile_Despawn_Pillow"
@@ -33,7 +33,7 @@
           }
         },
         {
-          "Type": "Pillows:DropItem",
+          "Type": "Pillow:DropItem",
           "ItemId": "Astolfo_Body_Pillow"
         },
         "Common_Projectile_Despawn_Pillow"

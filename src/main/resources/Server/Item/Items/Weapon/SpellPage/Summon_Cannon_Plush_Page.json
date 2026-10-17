@@ -45,7 +45,7 @@
               }
             },
             "0.8":  {
-              "Type": "Pillows:Summon",
+              "Type": "Pillow:Summon",
               "WeightedEntityIds": [
                 {
                   "Id": "Summon_Plush_Cannon_Edilan",

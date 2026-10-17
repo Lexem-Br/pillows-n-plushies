@@ -24,7 +24,7 @@
     "Effect": {
       "Interactions": [
         {
-          "Type": "Pillows:ApplyEffectRandomModel",
+          "Type": "Pillow:ApplyEffectRandomModel",
           "EffectId": "Potion_Morph_Hex_Infinite",
           "WeightedEntityIds": [
             {

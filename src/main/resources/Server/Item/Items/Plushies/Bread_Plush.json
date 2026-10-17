@@ -29,7 +29,7 @@
         "Weight": 1
       }
     ],
-    "HitboxType": "Block_Plushie_Shark_Kitty",
+    "HitboxType": "Block_Plushie_Bread",
     "InteractionHint": "server.interaction.squeeze",
     "Interactions": {
       "Use": {
