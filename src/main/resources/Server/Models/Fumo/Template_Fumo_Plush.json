@@ -28,7 +28,7 @@
     }
   },
   "PhysicsValues": {
-    "Mass": 4
+    "Mass": 16
   },
   "DetailBoxes": {
     "Head": [

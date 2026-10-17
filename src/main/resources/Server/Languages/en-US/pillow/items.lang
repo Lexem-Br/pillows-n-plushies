@@ -112,7 +112,9 @@ Bench_Pillowmill.description = <color is="#b55088"><b>oddly intimidating...</b><
 # ==== potions ====
 
 Potion_Morph_Plushie_Random.name = Potion of Plushie Morphing
-Potion_Morph_Plushie_Random.description = :3c
+Potion_Morph_Plushie_Random.description = <color is="#b55088"><b>weave your physical form anew</b></color>
+Potion_Morph_Plushie_Random_Infinite.name = Sequence of Plushie Reconstruction
+Potion_Morph_Plushie_Random_Infinite.description = <color is="#ffafff"><b>restitch your very dna down to the strand</b></color>
 Potion_Morph_Plushie_Template.name = Template Potion of Plushie Morphing
 
 
@@ -127,7 +129,9 @@ Weapon_Cannon_Pillow_Summon.name = summoned pillow cannon
 
 Carpet_Checkered_Flat.name = flat checkered carpet
 
+
 # ==== util ====
+
 Tool_Hammer_Pillow.name = pillow builder's hammer
 Tool_Hammer_Pillow.description = <color is="#b55088"><b>bam-bam-bam!</b></color> \n<color is="#ffffff">is normal hammer :3</color>
 Cross_Stitching.name = cross stitching

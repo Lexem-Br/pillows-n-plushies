@@ -1,8 +1,8 @@
 {
-  "StatusEffectIcon": "Icons/ItemsGenerated/Potion_Purify.png",
   "OverlapBehavior": "Overwrite",
-  "Duration": 60,
   "ModelChange": "Hex_Gaia_Plush",
+  "Duration": 60,
+  "StatusEffectIcon": "Icons/ItemsGenerated/Potion_Purify.png",
   "ApplicationEffects": {
     "Particles": [
       {
@@ -36,5 +36,13 @@
       }
     ],
     "WorldSoundEventId": "SFX_Cloth_Break"
+  },
+  "DamageResistance": {
+    "Fall": [
+      {
+        "CalculationType": "Percent",
+        "Amount": 100
+      }
+    ]
   }
 }

@@ -1,0 +1,103 @@
+{
+  "Parent": "Potion_Morph_Plushie_Template",
+  "TranslationProperties": {
+    "Name": "pillow.items.Potion_Morph_Plushie_Random_Infinite.name",
+    "Description": "pillow.items.Potion_Morph_Plushie_Random_Infinite.description"
+  },
+  "Quality": "Epic",
+  "Icon": "Icons/ItemsGenerated/Potion_Purify.png",
+  "BlockType": {
+    "CustomModel": "Items/Consumables/Potions/Potion.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Consumables/Potions/Potion_Textures/Iridescent.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#ffafff",
+    "Light": {
+      "Color": "#414"
+    },
+    "TextureComputedColor": "#99cccc"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "Pillows:ApplyEffectRandomModel",
+          "EffectId": "Potion_Morph_Hex_Infinite",
+          "WeightedEntityIds": [
+            {
+              "Id": "Hex_Farren_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Gaia_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Ikari_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Lordimass_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_MelodicAlbuild_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Oatman_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Oruuke_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Preston_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Riprod_Plush",
+              "Weight": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Potion_Morph_Plushie_Random",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Plant_Crop_Mana3",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Plant_Sapling_Azure",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Alchemybench",
+        "Type": "Crafting",
+        "Categories": [
+          "Alchemy_Potions_Misc"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 4
+  }
+}
