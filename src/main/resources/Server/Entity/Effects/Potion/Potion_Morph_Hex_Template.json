@@ -44,5 +44,10 @@
         "Amount": 100
       }
     ]
-  }
+  },
+  "ApplyConditions": [
+    {
+      "Id": "Alive"
+    }
+  ]
 }

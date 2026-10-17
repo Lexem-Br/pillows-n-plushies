@@ -3,5 +3,6 @@
   "OverlapBehavior": "Overwrite",
   "ModelChange": "Hex_Gaia_Plush",
   "StatusEffectIcon": null,
-  "Infinite": true
+  "Infinite": true,
+  "RemovalBehavior": "Infinite"
 }

@@ -36,6 +36,21 @@
           "Amount": 32
         }
       ]
+    },
+    "Regenerating": {
+      "Mana": [
+        {
+          "Amount": 1,
+          "Interval": 0.4,
+          "RegenType": "Additive",
+          "Conditions": [
+            {
+              "Id": "NoDamageTaken",
+              "Delay": 16
+            }
+          ]
+        }
+      ]
     }
   },
   "Categories": [
