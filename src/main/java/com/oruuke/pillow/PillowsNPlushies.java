@@ -40,7 +40,7 @@ public class PillowsNPlushies extends JavaPlugin {
         }
         this.registerInteractions();
         this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, EffectRejoinEvent::onPlayerReady);
-        Condition.CODEC.register("IsConnected", IsConnectedCondition.class, IsConnectedCondition.CODEC);
+        Condition.CODEC.register("Pillow:IsConnected", IsConnectedCondition.class, IsConnectedCondition.CODEC);
     }
 
     @Override
@@ -65,8 +65,8 @@ public class PillowsNPlushies extends JavaPlugin {
     }
 
     private void registerInteractions() {
-        this.getCodecRegistry(Interaction.CODEC).register("Pillows:DropItem", DropItemInteraction.class, DropItemInteraction.CODEC);
-        this.getCodecRegistry(Interaction.CODEC).register("Pillows:Summon", SummonInteraction.class, SummonInteraction.CODEC);
-        this.getCodecRegistry(Interaction.CODEC).register("Pillows:ApplyEffectRandomModel", ApplyEffectRandomModelInteraction.class, ApplyEffectRandomModelInteraction.CODEC);
+        this.getCodecRegistry(Interaction.CODEC).register("Pillow:DropItem", DropItemInteraction.class, DropItemInteraction.CODEC);
+        this.getCodecRegistry(Interaction.CODEC).register("Pillow:Summon", SummonInteraction.class, SummonInteraction.CODEC);
+        this.getCodecRegistry(Interaction.CODEC).register("Pillow:ApplyEffectRandomModel", ApplyEffectRandomModelInteraction.class, ApplyEffectRandomModelInteraction.CODEC);
     }
 }

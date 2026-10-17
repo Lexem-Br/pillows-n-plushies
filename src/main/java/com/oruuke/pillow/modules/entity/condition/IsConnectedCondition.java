@@ -4,7 +4,6 @@ import com.hypixel.hytale.codec.builder.BuilderCodec;
 import com.hypixel.hytale.component.ComponentAccessor;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
-import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.entity.UUIDComponent;
 import com.hypixel.hytale.server.core.entity.entities.Player;
 import com.hypixel.hytale.server.core.modules.entity.condition.Condition;
@@ -42,6 +41,6 @@ public class IsConnectedCondition extends Condition {
     @Nonnull
     @Override
     public String toString() {
-        return "IsConnectedCondition{} " + super.toString();
+        return "Pillow:IsConnectedCondition{} " + super.toString();
     }
 }
