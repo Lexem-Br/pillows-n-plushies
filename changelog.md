@@ -1,5 +1,4 @@
-- pillow cannon
-- plushie morphing
-- recipe tweaks
-- many improvements
-- bread
+- perma plushie potion
+- better mana regen on onesie
+- fixed evoke compatibility
+- fixed hexbook holding
