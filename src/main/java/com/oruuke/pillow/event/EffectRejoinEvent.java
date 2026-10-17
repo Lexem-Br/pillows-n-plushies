@@ -22,15 +22,15 @@ public class EffectRejoinEvent {
         world.execute(() -> {
             final var playerComponent = store.getComponent(ref, Player.getComponentType());
             if (playerComponent == null) {
-                LOGGER.atWarning().log("Player not in world to remove plushie effect!");
+                LOGGER.atWarning().log("Player not in world to remove leftover effect!");
                 return;
             }
 
             final var playerRefComponent = store.getComponent(ref, PlayerRef.getComponentType());
-            assert playerRefComponent != null;
+            if (playerRefComponent == null) return;
 
             final var effectControllerComponent = store.getComponent(ref, EffectControllerComponent.getComponentType());
-            assert effectControllerComponent != null;
+            if (effectControllerComponent == null) return;
 
             final var activeEffects = effectControllerComponent.getActiveEffects();
             if (activeEffects.isEmpty()) return;
