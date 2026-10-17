@@ -2,7 +2,10 @@
   "Parent": "Potion_Morph_Hex_Template",
   "OverlapBehavior": "Overwrite",
   "ModelChange": "Hex_Gaia_Plush",
-  "StatusEffectIcon": null,
   "Infinite": true,
-  "RemovalBehavior": "Infinite"
+  "ApplyConditions": [
+    {
+      "Id": "Alive"
+    }
+  ]
 }

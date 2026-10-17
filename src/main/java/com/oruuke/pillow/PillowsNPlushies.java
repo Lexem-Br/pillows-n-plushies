@@ -1,14 +1,16 @@
 package com.oruuke.pillow;
 
 import com.hypixel.hytale.common.plugin.PluginIdentifier;
-import com.hypixel.hytale.component.ComponentRegistryProxy;
 import com.hypixel.hytale.logger.HytaleLogger;
+import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
+import com.hypixel.hytale.server.core.modules.entity.condition.Condition;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.plugin.PluginBase;
 import com.hypixel.hytale.server.core.plugin.PluginManager;
-import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
+import com.oruuke.pillow.event.EffectRejoinEvent;
+import com.oruuke.pillow.modules.entity.condition.IsConnectedCondition;
 import com.oruuke.pillow.builtin.HexcodeBuiltin;
 import com.oruuke.pillow.interactions.ApplyEffectRandomModelInteraction;
 import com.oruuke.pillow.interactions.DropItemInteraction;
@@ -37,6 +39,8 @@ public class PillowsNPlushies extends JavaPlugin {
             HexcodeBuiltin.setup(this);
         }
         this.registerInteractions();
+        this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, EffectRejoinEvent::onPlayerReady);
+        Condition.CODEC.register("IsConnected", IsConnectedCondition.class, IsConnectedCondition.CODEC);
     }
 
     @Override
