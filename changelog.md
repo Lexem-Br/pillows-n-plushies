@@ -1,4 +1,1 @@
-- perma plushie potion
-- better mana regen on onesie
-- fixed evoke compatibility
-- fixed hexbook holding
+- more plushie role expression!

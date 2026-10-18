@@ -16,8 +16,11 @@ import javax.annotation.Nonnull;
 
 public class PlushieMovementSystem extends EntityTickingSystem<EntityStore> {
     private static final String[] PLUSHIE_EFFECTS = {"Potion_Morph_Hex_Template", "Potion_Morph_Hex_Infinite"};
-    private static final float JUMP_FORCE_MULTIPLIER = 1.0F;
-    private static final float DRAG_MULTIPLIER = 100.0F;
+    private static final float JUMP_FORCE_MULTIPLIER = 1.5F;
+    private static final float SWIM_JUMP_FORCE_MULTIPLIER = 0.04F;
+    private static final float DRAG_MULTIPLIER = 0.40F;
+    private static final float CROUCH_MULTIPLIER = 0.2F;
+    private static final float MASS_FLAT = 16.0F;
 
     private int[] effectIndexes;
 
@@ -39,12 +42,20 @@ public class PlushieMovementSystem extends EntityTickingSystem<EntityStore> {
 
         final boolean active = hasPlushieEffect(effects);
         final float jumpForce = active ? defaults.jumpForce * JUMP_FORCE_MULTIPLIER : defaults.jumpForce;
+        final float swimJumpForce = active ? defaults.swimJumpForce * SWIM_JUMP_FORCE_MULTIPLIER : defaults.swimJumpForce;
         final float drag = active ? defaults.dragCoefficient * DRAG_MULTIPLIER : defaults.dragCoefficient;
+        final float crouch = active ? CROUCH_MULTIPLIER : defaults.forwardCrouchSpeedMultiplier;
+        final float mass = active ? MASS_FLAT : defaults.mass;
 
-        if (settings.jumpForce == jumpForce && settings.dragCoefficient == drag) return;
+        if (settings.jumpForce == jumpForce && settings.swimJumpForce == swimJumpForce && settings.dragCoefficient == drag && settings.forwardCrouchSpeedMultiplier == crouch && settings.mass == mass) return;
 
         settings.jumpForce = jumpForce;
+        settings.swimJumpForce = swimJumpForce;
         settings.dragCoefficient = drag;
+        settings.forwardCrouchSpeedMultiplier = crouch;
+        settings.backwardCrouchSpeedMultiplier = crouch;
+        settings.strafeCrouchSpeedMultiplier = crouch;
+        settings.mass = mass;
         movementManager.update(playerRef.getPacketHandler());
     }
 
