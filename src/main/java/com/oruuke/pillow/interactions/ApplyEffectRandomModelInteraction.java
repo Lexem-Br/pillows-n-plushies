@@ -13,6 +13,7 @@ import com.hypixel.hytale.common.util.ArrayUtil;
 import com.hypixel.hytale.component.CommandBuffer;
 import com.hypixel.hytale.component.ComponentAccessor;
 import com.hypixel.hytale.component.Ref;
+import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.protocol.Interaction;
 import com.hypixel.hytale.protocol.InteractionType;
 import com.hypixel.hytale.server.core.asset.type.entityeffect.config.EntityEffect;
@@ -20,6 +21,7 @@ import com.hypixel.hytale.server.core.asset.type.model.config.Model;
 import com.hypixel.hytale.server.core.asset.type.model.config.ModelAsset;
 import com.hypixel.hytale.server.core.entity.InteractionContext;
 import com.hypixel.hytale.server.core.entity.effect.EffectControllerComponent;
+import com.hypixel.hytale.server.core.modules.entity.component.EntityScaleComponent;
 import com.hypixel.hytale.server.core.modules.entity.component.ModelComponent;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.CooldownHandler;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.SimpleInstantInteraction;
@@ -31,6 +33,9 @@ import javax.annotation.Nonnull;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ApplyEffectRandomModelInteraction extends SimpleInstantInteraction {
+   public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
+   private static final float BLOCK_UPSCALE = 2.0F;
+
    @Nonnull
    public static final BuilderCodec<ApplyEffectRandomModelInteraction> CODEC = BuilderCodec.builder(
                    ApplyEffectRandomModelInteraction.class, ApplyEffectRandomModelInteraction::new, SimpleInstantInteraction.CODEC
@@ -105,8 +110,9 @@ public class ApplyEffectRandomModelInteraction extends SimpleInstantInteraction 
       ModelAsset modelAsset = ModelAsset.getAssetMap().getAsset(newModel);
       if (modelComponent != null) {
          if (modelAsset != null) {
-            Model scaledModel = Model.createRandomScaleModel(modelAsset);
+            Model scaledModel = Model.createScaledModel(modelAsset, BLOCK_UPSCALE);
             componentAccessor.putComponent(ownerRef, ModelComponent.getComponentType(), new ModelComponent(scaledModel));
+            componentAccessor.putComponent(ownerRef, EntityScaleComponent.getComponentType(), new EntityScaleComponent(BLOCK_UPSCALE));
          }
       }
    }

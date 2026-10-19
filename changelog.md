@@ -1,1 +1,1 @@
-- more plushie role expression!
+- fixed plushie scale
