@@ -47,6 +47,14 @@
             {
               "Id": "Hex_Riprod_Plush",
               "Weight": 1
+            },
+            {
+              "Id": "Hex_Edilan_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Foxy_Plush",
+              "Weight": 1
             }
           ]
         }
