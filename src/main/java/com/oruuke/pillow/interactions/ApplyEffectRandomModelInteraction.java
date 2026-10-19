@@ -98,21 +98,21 @@ public class ApplyEffectRandomModelInteraction extends SimpleInstantInteraction 
                EffectControllerComponent effectControllerComponent = commandBuffer.getComponent(targetRef, EffectControllerComponent.getComponentType());
                if (effectControllerComponent != null) {
                   effectControllerComponent.addEffect(targetRef, entityEffect, commandBuffer);
-                  setModelChange(targetRef, commandBuffer, newModel);
+                  setModelChange(targetRef, commandBuffer, BLOCK_UPSCALE, newModel);
                }
             }
          }
       }
    }
 
-   public void setModelChange(@Nonnull Ref<EntityStore> ownerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor, String newModel) {
+   public void setModelChange(@Nonnull Ref<EntityStore> ownerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull float scale, String newModel) {
       ModelComponent modelComponent = componentAccessor.getComponent(ownerRef, ModelComponent.getComponentType());
       ModelAsset modelAsset = ModelAsset.getAssetMap().getAsset(newModel);
       if (modelComponent != null) {
          if (modelAsset != null) {
-            Model scaledModel = Model.createScaledModel(modelAsset, BLOCK_UPSCALE);
+            Model scaledModel = Model.createScaledModel(modelAsset, scale);
             componentAccessor.putComponent(ownerRef, ModelComponent.getComponentType(), new ModelComponent(scaledModel));
-            componentAccessor.putComponent(ownerRef, EntityScaleComponent.getComponentType(), new EntityScaleComponent(BLOCK_UPSCALE));
+            componentAccessor.putComponent(ownerRef, EntityScaleComponent.getComponentType(), new EntityScaleComponent(scale));
          }
       }
    }
