@@ -38,7 +38,6 @@ public class EffectRejoinEvent {
             LOGGER.atInfo().log("Cleaning up leftover effect...");
 
             store.putComponent(ref, EntityScaleComponent.getComponentType(), new EntityScaleComponent(1.0F));
-
             final var playerSkinComponent = store.getComponent(ref, PlayerSkinComponent.getComponentType());
             if (playerSkinComponent != null) playerSkinComponent.setNetworkOutdated();
 

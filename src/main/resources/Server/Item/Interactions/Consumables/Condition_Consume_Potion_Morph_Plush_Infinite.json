@@ -1,0 +1,13 @@
+{
+  "Type": "Condition",
+  "Crouching": false,
+  "Next": {
+    "Type": "EffectCondition",
+    "EntityEffectIds": [
+      "Potion_Morph_Hex_Template"
+    ],
+    "Match": "None",
+    "Next": "Consume_Charge_Potion_Fast_Plush"
+  },
+  "Failed": "Block_Secondary"
+}
