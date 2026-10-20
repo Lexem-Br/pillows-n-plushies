@@ -11,6 +11,9 @@ import com.hypixel.hytale.server.core.entity.effect.EffectControllerComponent;
 import com.hypixel.hytale.server.core.entity.entities.player.movement.MovementManager;
 import com.hypixel.hytale.server.core.universe.PlayerRef;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
+import com.hypixel.hytale.server.core.modules.entity.component.EntityScaleComponent;
+import com.hypixel.hytale.server.core.modules.entity.player.PlayerSkinComponent;
+import com.oruuke.pillow.interactions.ApplyEffectRandomModelInteraction;
 
 import javax.annotation.Nonnull;
 
@@ -41,6 +44,8 @@ public class PlushieMovementSystem extends EntityTickingSystem<EntityStore> {
         if (settings == null || defaults == null) return;
 
         final boolean active = hasPlushieEffect(effects);
+        if (!active) resetLeftoverScale(index, chunk, buffer);
+
         final float jumpForce = active ? defaults.jumpForce * JUMP_FORCE_MULTIPLIER : defaults.jumpForce;
         final float swimJumpForce = active ? defaults.swimJumpForce * SWIM_JUMP_FORCE_MULTIPLIER : defaults.swimJumpForce;
         final float drag = active ? defaults.dragCoefficient * DRAG_MULTIPLIER : defaults.dragCoefficient;
@@ -70,5 +75,15 @@ public class PlushieMovementSystem extends EntityTickingSystem<EntityStore> {
             if (effectIndex != AssetMapWithIndexes.NOT_FOUND && effects.hasEffect(effectIndex)) return true;
         }
         return false;
+    }
+
+    private static void resetLeftoverScale(int index, @Nonnull ArchetypeChunk<EntityStore> chunk, @Nonnull CommandBuffer<EntityStore> buffer) {
+        final var scale = chunk.getComponent(index, EntityScaleComponent.getComponentType());
+        if (scale == null || scale.getScale() != ApplyEffectRandomModelInteraction.BLOCK_UPSCALE) return;
+
+        buffer.putComponent(chunk.getReferenceTo(index), EntityScaleComponent.getComponentType(), new EntityScaleComponent(1.0F));
+
+        final var playerSkin = chunk.getComponent(index, PlayerSkinComponent.getComponentType());
+        if (playerSkin != null) playerSkin.setNetworkOutdated();
     }
 }

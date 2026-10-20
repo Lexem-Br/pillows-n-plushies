@@ -13,7 +13,6 @@ import com.hypixel.hytale.common.util.ArrayUtil;
 import com.hypixel.hytale.component.CommandBuffer;
 import com.hypixel.hytale.component.ComponentAccessor;
 import com.hypixel.hytale.component.Ref;
-import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.protocol.Interaction;
 import com.hypixel.hytale.protocol.InteractionType;
 import com.hypixel.hytale.server.core.asset.type.entityeffect.config.EntityEffect;
@@ -33,8 +32,7 @@ import javax.annotation.Nonnull;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ApplyEffectRandomModelInteraction extends SimpleInstantInteraction {
-   public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
-   private static final float BLOCK_UPSCALE = 2.0F;
+   public static final float BLOCK_UPSCALE = 2.0F;
 
    @Nonnull
    public static final BuilderCodec<ApplyEffectRandomModelInteraction> CODEC = BuilderCodec.builder(
