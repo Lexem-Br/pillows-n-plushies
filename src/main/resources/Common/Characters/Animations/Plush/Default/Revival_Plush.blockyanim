@@ -354,6 +354,11 @@
           "interpolationType": "linear"
         },
         {
+          "time": 450,
+          "delta": {"x": 0, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
           "time": 458,
           "delta": {"x": 0, "y": 0, "z": 0},
           "interpolationType": "linear"
@@ -453,6 +458,11 @@
         {
           "time": 420,
           "delta": {"x": 0.17365, "y": 0, "z": 0, "w": 0.98481},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 450,
+          "delta": {"x": 0, "y": 0, "z": 0, "w": 1},
           "interpolationType": "linear"
         },
         {
