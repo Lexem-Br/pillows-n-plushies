@@ -22,7 +22,7 @@
         {
           "id": "2",
           "name": "Pelvis",
-          "position": {"x": 0, "y": 0.2, "z": -3},
+          "position": {"x": 0, "y": 0, "z": -3},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "none",
@@ -41,7 +41,7 @@
             {
               "id": "3",
               "name": "Belly",
-              "position": {"x": 0, "y": -0.2, "z": 3},
+              "position": {"x": 0, "y": 9, "z": 4},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "none",
@@ -79,7 +79,7 @@
                     {
                       "id": "5",
                       "name": "Chest-Plush",
-                      "position": {"x": 0, "y": 9.2, "z": 1},
+                      "position": {"x": 0, "y": 0, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -102,7 +102,7 @@
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "box",
-                            "offset": {"x": 0, "y": 0.1, "z": 0},
+                            "offset": {"x": 0, "y": 0.3, "z": 0},
                             "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false,
@@ -153,7 +153,7 @@
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "box",
-                            "offset": {"x": 0, "y": 0.1, "z": 0},
+                            "offset": {"x": 0, "y": 0.3, "z": 0},
                             "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false,
@@ -199,55 +199,6 @@
                           "children": [
                             {
                               "id": "8",
-                              "name": "Plushie-Tag",
-                              "position": {"x": 0, "y": -0.1, "z": -2},
-                              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
-                              "shape": {
-                                "type": "none",
-                                "offset": {"x": 0, "y": 0, "z": 0},
-                                "stretch": {"x": 1, "y": 1, "z": 1},
-                                "settings": {
-                                  "isPiece": false
-                                },
-                                "textureLayout": {},
-                                "unwrapMode": "custom",
-                                "visible": true,
-                                "doubleSided": false,
-                                "shadingMode": "flat"
-                              },
-                              "children": [
-                                {
-                                  "id": "9",
-                                  "name": "Plushie-Tag--C1",
-                                  "position": {"x": 0, "y": 0, "z": 0},
-                                  "orientation": {"x": 0, "y": 0.42262, "z": 0, "w": 0.90631},
-                                  "shape": {
-                                    "type": "quad",
-                                    "offset": {"x": 2.5, "y": 1, "z": -2},
-                                    "stretch": {"x": 1, "y": 1, "z": 1},
-                                    "settings": {
-                                      "isPiece": false,
-                                      "size": {"x": 3, "y": 2},
-                                      "normal": "+Z",
-                                      "isStaticBox": true
-                                    },
-                                    "textureLayout": {
-                                      "front": {
-                                        "offset": {"x": 49, "y": 45},
-                                        "mirror": {"x": false, "y": false},
-                                        "angle": 0
-                                      }
-                                    },
-                                    "unwrapMode": "custom",
-                                    "visible": true,
-                                    "doubleSided": true,
-                                    "shadingMode": "flat"
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "id": "10",
                               "name": "Plushie-Clothes",
                               "position": {"x": 0, "y": 2, "z": 4},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -266,7 +217,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "11",
+                                  "id": "9",
                                   "name": "Plushie-Clothes--C1",
                                   "position": {"x": 0, "y": 0, "z": 0},
                                   "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
@@ -294,7 +245,7 @@
                                   }
                                 },
                                 {
-                                  "id": "12",
+                                  "id": "10",
                                   "name": "Plushie-Clothes--C2",
                                   "position": {"x": 7, "y": -0.2, "z": 0},
                                   "orientation": {"x": 0.43046, "y": -0.43046, "z": -0.56099, "w": 0.56099},
@@ -322,7 +273,7 @@
                                   }
                                 },
                                 {
-                                  "id": "13",
+                                  "id": "11",
                                   "name": "Plushie-Clothes--C3",
                                   "position": {"x": -7, "y": -0.2, "z": 0},
                                   "orientation": {"x": 0.43046, "y": 0.43046, "z": 0.56099, "w": 0.56099},
@@ -350,7 +301,7 @@
                                   }
                                 },
                                 {
-                                  "id": "14",
+                                  "id": "12",
                                   "name": "Plushie-Clothes--C4",
                                   "position": {"x": 0, "y": 0, "z": 0},
                                   "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
@@ -378,7 +329,7 @@
                                   }
                                 },
                                 {
-                                  "id": "15",
+                                  "id": "13",
                                   "name": "Plushie-Clothes--C5",
                                   "position": {"x": 0, "y": 0, "z": 0},
                                   "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
@@ -406,6 +357,55 @@
                                   }
                                 }
                               ]
+                            },
+                            {
+                              "id": "14",
+                              "name": "Plushie-Tag",
+                              "position": {"x": 0, "y": -0.1, "z": -2},
+                              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                              "shape": {
+                                "type": "none",
+                                "offset": {"x": 0, "y": 0, "z": 0},
+                                "stretch": {"x": 1, "y": 1, "z": 1},
+                                "settings": {
+                                  "isPiece": false
+                                },
+                                "textureLayout": {},
+                                "unwrapMode": "custom",
+                                "visible": true,
+                                "doubleSided": false,
+                                "shadingMode": "flat"
+                              },
+                              "children": [
+                                {
+                                  "id": "15",
+                                  "name": "Plushie-Tag--C1",
+                                  "position": {"x": 0, "y": 0, "z": 0},
+                                  "orientation": {"x": 0, "y": 0.42262, "z": 0, "w": 0.90631},
+                                  "shape": {
+                                    "type": "quad",
+                                    "offset": {"x": 2.5, "y": 1, "z": -2},
+                                    "stretch": {"x": 1, "y": 1, "z": 1},
+                                    "settings": {
+                                      "isPiece": false,
+                                      "size": {"x": 3, "y": 2},
+                                      "normal": "+Z",
+                                      "isStaticBox": true
+                                    },
+                                    "textureLayout": {
+                                      "front": {
+                                        "offset": {"x": 49, "y": 45},
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 0
+                                      }
+                                    },
+                                    "unwrapMode": "custom",
+                                    "visible": true,
+                                    "doubleSided": true,
+                                    "shadingMode": "flat"
+                                  }
+                                }
+                              ]
                             }
                           ]
                         }
@@ -414,7 +414,7 @@
                     {
                       "id": "16",
                       "name": "Head",
-                      "position": {"x": 0, "y": 13, "z": 1},
+                      "position": {"x": 0, "y": 4, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "box",
@@ -1906,7 +1906,7 @@
                     {
                       "id": "51",
                       "name": "R-Arm",
-                      "position": {"x": -4, "y": 12, "z": 2},
+                      "position": {"x": -4, "y": 3, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -1925,7 +1925,7 @@
                         {
                           "id": "52",
                           "name": "R-Forearm",
-                          "position": {"x": -2, "y": 0.2, "z": 0},
+                          "position": {"x": -2, "y": 0.2, "z": 1},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "none",
@@ -1982,13 +1982,13 @@
                                       },
                                       "right": {
                                         "offset": {"x": 88, "y": 45},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 90
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 270
                                       },
                                       "front": {
                                         "offset": {"x": 84, "y": 54},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 90
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 270
                                       },
                                       "left": {
                                         "offset": {"x": 92, "y": 54},
@@ -2002,8 +2002,8 @@
                                       },
                                       "bottom": {
                                         "offset": {"x": 92, "y": 54},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 90
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 270
                                       }
                                     },
                                     "unwrapMode": "custom",
@@ -2040,7 +2040,7 @@
                     {
                       "id": "56",
                       "name": "L-Arm",
-                      "position": {"x": 4, "y": 12, "z": 2},
+                      "position": {"x": 4, "y": 3, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -2059,7 +2059,7 @@
                         {
                           "id": "57",
                           "name": "L-Forearm",
-                          "position": {"x": 2, "y": 0.2, "z": 0},
+                          "position": {"x": 2, "y": 0.2, "z": 1},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "none",
@@ -2111,8 +2111,8 @@
                                     "textureLayout": {
                                       "back": {
                                         "offset": {"x": 84, "y": 54},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 90
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 270
                                       },
                                       "right": {
                                         "offset": {"x": 88, "y": 54},
@@ -2131,8 +2131,8 @@
                                       },
                                       "top": {
                                         "offset": {"x": 92, "y": 45},
-                                        "mirror": {"x": false, "y": false},
-                                        "angle": 90
+                                        "mirror": {"x": true, "y": true},
+                                        "angle": 270
                                       },
                                       "bottom": {
                                         "offset": {"x": 92, "y": 45},
@@ -2176,7 +2176,7 @@
                 {
                   "id": "61",
                   "name": "R-Thigh",
-                  "position": {"x": -4, "y": 2, "z": 4},
+                  "position": {"x": -4, "y": -7, "z": 3},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "none",
@@ -2291,7 +2291,7 @@
                 {
                   "id": "65",
                   "name": "L-Thigh",
-                  "position": {"x": 4, "y": 2, "z": 4},
+                  "position": {"x": 4, "y": -7, "z": 3},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "none",

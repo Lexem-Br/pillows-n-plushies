@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Origin",
-      "position": {"x": 0, "y": 23.2, "z": -3},
+      "position": {"x": 0, "y": 0, "z": 0},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "none",
@@ -22,7 +22,7 @@
         {
           "id": "2",
           "name": "Pelvis",
-          "position": {"x": 0, "y": -23, "z": 0},
+          "position": {"x": 0, "y": 0, "z": -3},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "none",
@@ -41,7 +41,7 @@
             {
               "id": "3",
               "name": "Belly",
-              "position": {"x": 5, "y": 22.9, "z": 3},
+              "position": {"x": 0, "y": 29.9, "z": 0},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "none",
@@ -98,11 +98,11 @@
                         {
                           "id": "6",
                           "name": "Chest-Plush-Upper",
-                          "position": {"x": 0, "y": -7, "z": 0},
+                          "position": {"x": 5, "y": -7.1, "z": 3},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "box",
-                            "offset": {"x": 0, "y": 7, "z": 0},
+                            "offset": {"x": 0, "y": 0.3, "z": 0},
                             "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false,
@@ -203,11 +203,11 @@
                         {
                           "id": "8",
                           "name": "Chest-Plush-Lower",
-                          "position": {"x": 0, "y": -7, "z": 0},
+                          "position": {"x": 5, "y": -14.1, "z": 3},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "box",
-                            "offset": {"x": 0, "y": 0, "z": 0},
+                            "offset": {"x": 0, "y": 0.3, "z": 0},
                             "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false,
@@ -468,7 +468,7 @@
                     {
                       "id": "17",
                       "name": "Head",
-                      "position": {"x": 0, "y": 5.7, "z": 0},
+                      "position": {"x": 5, "y": -1.1, "z": 3},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "box",
@@ -1264,7 +1264,7 @@
                     {
                       "id": "39",
                       "name": "R-Arm",
-                      "position": {"x": -4, "y": 4.7, "z": 1},
+                      "position": {"x": 1, "y": -2.1, "z": 3},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -1283,7 +1283,7 @@
                         {
                           "id": "40",
                           "name": "R-Forearm",
-                          "position": {"x": -2, "y": 0.2, "z": 0},
+                          "position": {"x": -2, "y": 0.2, "z": 1},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "none",
@@ -1398,7 +1398,7 @@
                     {
                       "id": "44",
                       "name": "L-Arm",
-                      "position": {"x": 4, "y": 4.7, "z": 1},
+                      "position": {"x": 9, "y": -2.1, "z": 3},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -1417,7 +1417,7 @@
                         {
                           "id": "45",
                           "name": "L-Forearm",
-                          "position": {"x": 2, "y": 0.2, "z": 0},
+                          "position": {"x": 2, "y": 0.2, "z": 1},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "none",
@@ -1534,7 +1534,7 @@
                 {
                   "id": "49",
                   "name": "R-Thigh",
-                  "position": {"x": -9, "y": -0.2, "z": 0},
+                  "position": {"x": -4, "y": -7, "z": 3},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "none",
@@ -1649,7 +1649,7 @@
                 {
                   "id": "53",
                   "name": "L-Thigh",
-                  "position": {"x": -1, "y": -0.2, "z": 0},
+                  "position": {"x": 4, "y": -7, "z": 3},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "none",
