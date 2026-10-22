@@ -712,38 +712,59 @@
                             },
                             {
                               "id": "24",
-                              "name": "tag--C7",
+                              "name": "Tag",
                               "position": {"x": 0, "y": 0, "z": -2},
-                              "orientation": {"x": 0, "y": 0.42262, "z": 0, "w": 0.90631},
+                              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                               "shape": {
-                                "type": "quad",
-                                "offset": {"x": 2.5, "y": 1, "z": -2},
+                                "type": "none",
+                                "offset": {"x": 0, "y": 0, "z": 0},
                                 "stretch": {"x": 1, "y": 1, "z": 1},
                                 "settings": {
-                                  "isPiece": false,
-                                  "size": {"x": 3, "y": 2},
-                                  "normal": "+Z",
-                                  "isStaticBox": true
+                                  "isPiece": false
                                 },
-                                "textureLayout": {
-                                  "front": {
-                                    "offset": {"x": 49, "y": 45},
-                                    "mirror": {"x": false, "y": false},
-                                    "angle": 0
-                                  }
-                                },
+                                "textureLayout": {},
                                 "unwrapMode": "custom",
                                 "visible": true,
-                                "doubleSided": true,
+                                "doubleSided": false,
                                 "shadingMode": "flat"
-                              }
+                              },
+                              "children": [
+                                {
+                                  "id": "25",
+                                  "name": "Tag--C1",
+                                  "position": {"x": 0, "y": 0, "z": 0},
+                                  "orientation": {"x": 0, "y": 0.42262, "z": 0, "w": 0.90631},
+                                  "shape": {
+                                    "type": "quad",
+                                    "offset": {"x": 2.5, "y": 1, "z": -2},
+                                    "stretch": {"x": 1, "y": 1, "z": 1},
+                                    "settings": {
+                                      "isPiece": false,
+                                      "size": {"x": 3, "y": 2},
+                                      "normal": "+Z",
+                                      "isStaticBox": true
+                                    },
+                                    "textureLayout": {
+                                      "front": {
+                                        "offset": {"x": 49, "y": 45},
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 0
+                                      }
+                                    },
+                                    "unwrapMode": "custom",
+                                    "visible": true,
+                                    "doubleSided": true,
+                                    "shadingMode": "flat"
+                                  }
+                                }
+                              ]
                             }
                           ]
                         }
                       ]
                     },
                     {
-                      "id": "25",
+                      "id": "26",
                       "name": "Head",
                       "position": {"x": 0, "y": -10.2, "z": 4},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -794,7 +815,7 @@
                       },
                       "children": [
                         {
-                          "id": "26",
+                          "id": "27",
                           "name": "R-Earring",
                           "position": {"x": -11.5, "y": -1.2, "z": -0.5},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -845,7 +866,7 @@
                           },
                           "children": [
                             {
-                              "id": "27",
+                              "id": "28",
                               "name": "leaf-left--C1",
                               "position": {"x": -1, "y": 2.5, "z": 0.5},
                               "orientation": {"x": 0, "y": 0, "z": 0.25882, "w": 0.96593},
@@ -875,7 +896,7 @@
                           ]
                         },
                         {
-                          "id": "28",
+                          "id": "29",
                           "name": "Mouth--C1",
                           "position": {"x": 1, "y": 1.5, "z": 6.1},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -903,7 +924,7 @@
                           }
                         },
                         {
-                          "id": "29",
+                          "id": "30",
                           "name": "Facial--C2",
                           "position": {"x": 1, "y": 2.5, "z": 6.1},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -950,7 +971,7 @@
                           }
                         },
                         {
-                          "id": "30",
+                          "id": "31",
                           "name": "Top",
                           "position": {"x": 0, "y": 17.5, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1001,7 +1022,7 @@
                           },
                           "children": [
                             {
-                              "id": "31",
+                              "id": "32",
                               "name": "Top--C1",
                               "position": {"x": 0, "y": 2.5, "z": 0},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1053,7 +1074,7 @@
                               }
                             },
                             {
-                              "id": "32",
+                              "id": "33",
                               "name": "CatEar2",
                               "position": {"x": -7.12052, "y": 6.05418, "z": 2.97035},
                               "orientation": {"x": 0.08624, "y": -0.00702, "z": 0.17827, "w": 0.98017},
@@ -1080,7 +1101,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "33",
+                                  "id": "34",
                                   "name": "CatEar3--C1",
                                   "position": {"x": 11.06712, "y": -1.08848, "z": -1.00005},
                                   "orientation": {"x": 0.04341, "y": -0.00427, "z": 0, "w": 0.99905},
@@ -1108,7 +1129,7 @@
                                   }
                                 },
                                 {
-                                  "id": "34",
+                                  "id": "35",
                                   "name": "CatEar3",
                                   "position": {"x": 0.82802, "y": -2.93335, "z": -1.19239},
                                   "orientation": {"x": 0.03303, "y": -0.02083, "z": 0.00503, "w": 0.99922},
@@ -1127,7 +1148,7 @@
                                   }
                                 },
                                 {
-                                  "id": "35",
+                                  "id": "36",
                                   "name": "CatEar4",
                                   "position": {"x": -1.2262, "y": -3.19214, "z": -1.04042},
                                   "orientation": {"x": 0.03303, "y": -0.02083, "z": 0.00503, "w": 0.99922},
@@ -1148,7 +1169,7 @@
                               ]
                             },
                             {
-                              "id": "36",
+                              "id": "37",
                               "name": "CatEar1",
                               "position": {"x": 7.12053, "y": 6.05417, "z": 2.97035},
                               "orientation": {"x": 0.08624, "y": 0.00702, "z": -0.17827, "w": 0.98017},
@@ -1175,7 +1196,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "37",
+                                  "id": "38",
                                   "name": "CatEar2--C1",
                                   "position": {"x": -11.06712, "y": -1.08846, "z": -1.00005},
                                   "orientation": {"x": 0.04341, "y": 0.00427, "z": 0, "w": 0.99905},
@@ -1203,7 +1224,7 @@
                                   }
                                 },
                                 {
-                                  "id": "38",
+                                  "id": "39",
                                   "name": "CatEar5",
                                   "position": {"x": -0.82698, "y": -2.82344, "z": -1.06018},
                                   "orientation": {"x": 0.03303, "y": 0.02083, "z": -0.00503, "w": 0.99922},
@@ -1222,7 +1243,7 @@
                                   }
                                 },
                                 {
-                                  "id": "39",
+                                  "id": "40",
                                   "name": "CatEar6",
                                   "position": {"x": 1.22619, "y": -3.19213, "z": -1.04042},
                                   "orientation": {"x": 0.03303, "y": 0.02083, "z": -0.00503, "w": 0.99922},
@@ -1243,7 +1264,7 @@
                               ]
                             },
                             {
-                              "id": "40",
+                              "id": "41",
                               "name": "Hair",
                               "position": {"x": 1, "y": -1.5, "z": 6},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1270,7 +1291,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "41",
+                                  "id": "42",
                                   "name": "Hair-Front--C1",
                                   "position": {"x": 1, "y": 6, "z": 12.1},
                                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1298,7 +1319,7 @@
                                   }
                                 },
                                 {
-                                  "id": "42",
+                                  "id": "43",
                                   "name": "Hair-Left--C2",
                                   "position": {"x": 10, "y": 6, "z": 7.1},
                                   "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
@@ -1326,7 +1347,7 @@
                                   }
                                 },
                                 {
-                                  "id": "43",
+                                  "id": "44",
                                   "name": "Hair-Right--C3",
                                   "position": {"x": -10, "y": 6, "z": 7.1},
                                   "orientation": {"x": 0, "y": -0.70711, "z": 0, "w": 0.70711},
@@ -1360,7 +1381,7 @@
                       ]
                     },
                     {
-                      "id": "44",
+                      "id": "45",
                       "name": "R-Arm",
                       "position": {"x": -4, "y": -11.2, "z": 5},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1379,7 +1400,7 @@
                       },
                       "children": [
                         {
-                          "id": "45",
+                          "id": "46",
                           "name": "R-Forearm",
                           "position": {"x": -2, "y": 0.2, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1398,7 +1419,7 @@
                           },
                           "children": [
                             {
-                              "id": "46",
+                              "id": "47",
                               "name": "R-Hand",
                               "position": {"x": 0, "y": 0, "z": 0},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1417,7 +1438,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "47",
+                                  "id": "48",
                                   "name": "R-Hand--C1",
                                   "position": {"x": 0, "y": 0, "z": 0},
                                   "orientation": {"x": 0, "y": 0, "z": 0.17365, "w": 0.98481},
@@ -1469,7 +1490,7 @@
                                   }
                                 },
                                 {
-                                  "id": "48",
+                                  "id": "49",
                                   "name": "R-Attachment",
                                   "position": {"x": -10.07818, "y": 0.45723, "z": 1},
                                   "orientation": {"x": 0.69636, "y": 0.12279, "z": 0.12279, "w": 0.69636},
@@ -1494,7 +1515,7 @@
                       ]
                     },
                     {
-                      "id": "49",
+                      "id": "50",
                       "name": "L-Arm",
                       "position": {"x": 4, "y": -11.2, "z": 5},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1513,7 +1534,7 @@
                       },
                       "children": [
                         {
-                          "id": "50",
+                          "id": "51",
                           "name": "L-Forearm",
                           "position": {"x": -4, "y": -12, "z": -2},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1532,7 +1553,7 @@
                           },
                           "children": [
                             {
-                              "id": "51",
+                              "id": "52",
                               "name": "L-Hand",
                               "position": {"x": 6, "y": 12.2, "z": 2},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1551,7 +1572,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "52",
+                                  "id": "53",
                                   "name": "L-Hand--C1",
                                   "position": {"x": 0, "y": 0, "z": 0},
                                   "orientation": {"x": 0, "y": 0, "z": -0.17365, "w": 0.98481},
@@ -1603,7 +1624,7 @@
                                   }
                                 },
                                 {
-                                  "id": "53",
+                                  "id": "54",
                                   "name": "L-Attachment",
                                   "position": {"x": 12, "y": -8, "z": 2},
                                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1630,7 +1651,7 @@
                   ]
                 },
                 {
-                  "id": "54",
+                  "id": "55",
                   "name": "R-Thigh",
                   "position": {"x": -4, "y": -21.2, "z": 7},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1649,7 +1670,7 @@
                   },
                   "children": [
                     {
-                      "id": "55",
+                      "id": "56",
                       "name": "R-Calf",
                       "position": {"x": 4, "y": -2, "z": -4},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1668,7 +1689,7 @@
                       },
                       "children": [
                         {
-                          "id": "56",
+                          "id": "57",
                           "name": "R-Foot",
                           "position": {"x": 0, "y": 0, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1687,7 +1708,7 @@
                           },
                           "children": [
                             {
-                              "id": "57",
+                              "id": "58",
                               "name": "R-Foot--C1",
                               "position": {"x": -4, "y": 0.2, "z": 5},
                               "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
@@ -1745,7 +1766,7 @@
                   ]
                 },
                 {
-                  "id": "58",
+                  "id": "59",
                   "name": "L-Thigh",
                   "position": {"x": 4, "y": -21.2, "z": 7},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1764,7 +1785,7 @@
                   },
                   "children": [
                     {
-                      "id": "59",
+                      "id": "60",
                       "name": "L-Calf",
                       "position": {"x": -4, "y": -2, "z": -4},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1783,7 +1804,7 @@
                       },
                       "children": [
                         {
-                          "id": "60",
+                          "id": "61",
                           "name": "L-Foot",
                           "position": {"x": 0, "y": 0, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1802,7 +1823,7 @@
                           },
                           "children": [
                             {
-                              "id": "61",
+                              "id": "62",
                               "name": "L-Foot--C1",
                               "position": {"x": 4, "y": 0.2, "z": 5},
                               "orientation": {"x": 0, "y": 0.13053, "z": 0, "w": 0.99144},
