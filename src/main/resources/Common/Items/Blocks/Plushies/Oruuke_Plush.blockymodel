@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Origin",
-      "position": {"x": 0, "y": 23.2, "z": -3},
+      "position": {"x": 0, "y": 0, "z": 0},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "none",
@@ -22,7 +22,7 @@
         {
           "id": "2",
           "name": "Pelvis",
-          "position": {"x": 0, "y": -23, "z": 0},
+          "position": {"x": 0, "y": 0.2, "z": -3},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "none",
@@ -41,7 +41,7 @@
             {
               "id": "3",
               "name": "Belly",
-              "position": {"x": 0, "y": 44, "z": -4},
+              "position": {"x": 0, "y": 20.8, "z": -1},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "none",
@@ -79,7 +79,7 @@
                     {
                       "id": "5",
                       "name": "Chest-Plush",
-                      "position": {"x": 0, "y": -14, "z": 4},
+                      "position": {"x": 0, "y": 9.2, "z": 1},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -787,7 +787,7 @@
                     {
                       "id": "27",
                       "name": "Head",
-                      "position": {"x": 0, "y": -10.2, "z": 4},
+                      "position": {"x": 0, "y": 13, "z": 1},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "box",
@@ -1446,7 +1446,7 @@
                     {
                       "id": "48",
                       "name": "R-Arm",
-                      "position": {"x": -4, "y": -11.2, "z": 5},
+                      "position": {"x": -4, "y": 12, "z": 2},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -1580,7 +1580,7 @@
                     {
                       "id": "53",
                       "name": "L-Arm",
-                      "position": {"x": 4, "y": -11.2, "z": 5},
+                      "position": {"x": 4, "y": 12, "z": 2},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -1716,7 +1716,7 @@
                 {
                   "id": "58",
                   "name": "R-Thigh",
-                  "position": {"x": -4, "y": -21.2, "z": 7},
+                  "position": {"x": -4, "y": 2, "z": 4},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "none",
@@ -1831,7 +1831,7 @@
                 {
                   "id": "62",
                   "name": "L-Thigh",
-                  "position": {"x": 4, "y": -21.2, "z": 7},
+                  "position": {"x": 4, "y": 2, "z": 4},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "none",

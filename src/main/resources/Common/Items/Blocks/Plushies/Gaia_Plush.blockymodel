@@ -79,7 +79,7 @@
                     {
                       "id": "5",
                       "name": "Chest-Plush",
-                      "position": {"x": 0, "y": 0, "z": 0},
+                      "position": {"x": 0, "y": 9.2, "z": 1},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "none",
@@ -102,7 +102,7 @@
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "box",
-                            "offset": {"x": 0, "y": 9.3, "z": 1},
+                            "offset": {"x": 0, "y": 0.1, "z": 0},
                             "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false,
@@ -149,11 +149,11 @@
                         {
                           "id": "7",
                           "name": "Chest-Plush-Lower",
-                          "position": {"x": 0, "y": 0, "z": 0},
+                          "position": {"x": 0, "y": -7, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "box",
-                            "offset": {"x": 0, "y": 2.3, "z": 1},
+                            "offset": {"x": 0, "y": 0.1, "z": 0},
                             "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false,
@@ -1982,13 +1982,13 @@
                                       },
                                       "right": {
                                         "offset": {"x": 88, "y": 45},
-                                        "mirror": {"x": false, "y": false},
-                                        "angle": 270
+                                        "mirror": {"x": true, "y": true},
+                                        "angle": 90
                                       },
                                       "front": {
                                         "offset": {"x": 84, "y": 54},
-                                        "mirror": {"x": false, "y": false},
-                                        "angle": 270
+                                        "mirror": {"x": true, "y": true},
+                                        "angle": 90
                                       },
                                       "left": {
                                         "offset": {"x": 92, "y": 54},
@@ -2002,8 +2002,8 @@
                                       },
                                       "bottom": {
                                         "offset": {"x": 92, "y": 54},
-                                        "mirror": {"x": false, "y": false},
-                                        "angle": 270
+                                        "mirror": {"x": true, "y": true},
+                                        "angle": 90
                                       }
                                     },
                                     "unwrapMode": "custom",
@@ -2059,7 +2059,7 @@
                         {
                           "id": "57",
                           "name": "L-Forearm",
-                          "position": {"x": 1, "y": -9.8, "z": 2},
+                          "position": {"x": 2, "y": 0.2, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "none",
@@ -2078,7 +2078,7 @@
                             {
                               "id": "58",
                               "name": "L-Hand",
-                              "position": {"x": 1, "y": 10, "z": -2},
+                              "position": {"x": 0, "y": 0, "z": 0},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                               "shape": {
                                 "type": "none",
@@ -2111,8 +2111,8 @@
                                     "textureLayout": {
                                       "back": {
                                         "offset": {"x": 84, "y": 54},
-                                        "mirror": {"x": false, "y": false},
-                                        "angle": 270
+                                        "mirror": {"x": true, "y": true},
+                                        "angle": 90
                                       },
                                       "right": {
                                         "offset": {"x": 88, "y": 54},
@@ -2131,8 +2131,8 @@
                                       },
                                       "top": {
                                         "offset": {"x": 92, "y": 45},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 270
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 90
                                       },
                                       "bottom": {
                                         "offset": {"x": 92, "y": 45},
