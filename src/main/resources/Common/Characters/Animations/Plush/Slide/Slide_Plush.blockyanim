@@ -7,7 +7,7 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": 0, "y": -13, "z": 0},
+          "delta": {"x": 0, "y": 2, "z": 0},
           "interpolationType": "smooth"
         }
       ],
@@ -23,7 +23,13 @@
       "shapeUvOffset": []
     },
     "Head": {
-      "position": [],
+      "position": [
+        {
+          "time": 0,
+          "delta": {"x": 0.69464, "y": -0.24697, "z": 0.67564},
+          "interpolationType": "smooth"
+        }
+      ],
       "orientation": [
         {
           "time": 0,

@@ -13,11 +13,23 @@
           "EffectId": "Potion_Morph_Hex_Template",
           "WeightedEntityIds": [
             {
+              "Id": "Hex_Edilan_Plush",
+              "Weight": 1
+            },
+            {
               "Id": "Hex_Farren_Plush",
               "Weight": 1
             },
             {
+              "Id": "Hex_Foxy_Plush",
+              "Weight": 1
+            },
+            {
               "Id": "Hex_Gaia_Plush",
+              "Weight": 1
+            },
+            {
+              "Id": "Hex_Heru_Plush",
               "Weight": 1
             },
             {
@@ -49,11 +61,11 @@
               "Weight": 1
             },
             {
-              "Id": "Hex_Edilan_Plush",
+              "Id": "Hex_Slushy_Plush",
               "Weight": 1
             },
             {
-              "Id": "Hex_Foxy_Plush",
+              "Id": "Hex_Syprus_Plush",
               "Weight": 1
             }
           ]

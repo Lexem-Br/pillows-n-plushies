@@ -4,11 +4,19 @@
     "Name": "pillow.pillowcode.Evoke_Book_Plush.name",
     "Description": "pillow.pillowcode.Evoke_Book_Plush.description"
   },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Utility": {
+    "Usable": true
+  },
   "Quality": "Developer",
+  "ItemLevel": 40,
   "Model": "Items/Tools/Book/Grimoire_Plush.blockymodel",
   "Texture": "Items/Tools/Book/Grimoire_Plush.png",
   "Icon": "Icons/ItemsGenerated/Evoke_Book_Plush.png",
   "PlayerAnimationsId": "Spellbook",
+  "ItemSoundSetId": "ISS_Weapons_Books",
   "IconProperties": {
     "Scale": 0.7,
     "Rotation": [
